@@ -24,7 +24,7 @@
 
 **Executive Search** (2008-2009) — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunters.
 
-**Barclays Global Investors** (2006-2008) — Institutional Business Development (Active Equity, Fixed Income, Hedge Funds).
+**Barclays Global Investors** (2006-2008) — 2 & 20. Institutional Business Development (Active Equity, Fixed Income, Hedge Funds).
 
 
  ## Open Source
