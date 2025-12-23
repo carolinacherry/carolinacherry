@@ -16,13 +16,16 @@
 
 ## The Résumé
 
+**Microsoft** (2022-2024) — AI/Web3 partnerships that got TechCrunch coverage.
+
+**Mozilla** (2021-2022) — Open web advocacy before it was cool.
+
 **Google** (2009–2021) — ~12 years. Authored their most-read Think with Google article. Mobile web performance research that influenced search ranking factors. Watched them invent the Transformer, then take a 5-year nap.
 
-**Microsoft** — AI/Web3 partnerships that got TechCrunch coverage.
+**Executive Search** (2008-2009) — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunters.
 
-**Mozilla** — Open web advocacy before it was cool.
+**Barclays Global Investors** (2006-2008) — Institutional Business Development (Active Equity, Fixed Income, Hedge Funds).
 
-**Wall Street** — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunters.
 
  ## Open Source
 
