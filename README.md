@@ -13,6 +13,9 @@
 - [justfuckingusecopilot.com](https://justfuckingusecopilot.com)
 - [justfuckingusegemini.com](https://justfuckingusegemini.com)
 - [justfuckingusenanobanana.com](https://justfuckingusenanobanana.com)
+- [justfuckingusedeepseek.com](https://justfuckingusedeepseek.com)
+- [justfuckingusefigma.com](https://justfuckingusefigma.com)
+- [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
 
 ## The Résumé
 
