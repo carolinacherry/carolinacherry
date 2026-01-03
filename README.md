@@ -26,13 +26,16 @@ I'm interested in building agents that perform tasks historically priced highly 
 
 **Demos:** [v1](https://x.com/Daniel_An23/status/2005993658525573290) | [v2](https://x.com/Daniel_An23/status/2006427824832352701)
 
-## The Résumé
+<img width="2444" height="1778" alt="image" src="https://github.com/user-attachments/assets/4e48af08-5953-4e1c-bb2a-6e8363fc6bae" />
 
-**Microsoft** (2022-2024) — AI/Web3 partnerships that got TechCrunch coverage.
 
-**Mozilla** (2021-2022) — Open web advocacy before it was cool.
+## Professional Journey
 
-**Google** (2009–2021) — ~12 years. Authored their most-read Think with Google article. Mobile web performance research that influenced search ranking factors. Watched them invent the Transformer, then take a 5-year nap.
+**Microsoft** (2022-2024) — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage.
+
+**Mozilla** (2021-2022) — Open web advocacy before it was cool. Kind of.
+
+**Google** (2009–2021) — ~12 years. Authored their most-read Think with Google article. Mobile web performance research that influenced search ranking factors. Watched them invent the Transformer, then take a 5-year nap. Refer to: [justfuckingusegemini.com](https://justfuckingusegemini.com)
 
 **Executive Search** (2008-2009) — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunters.
 
