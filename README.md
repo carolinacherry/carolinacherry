@@ -8,6 +8,8 @@
 
 🎯 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you. **Demo:** [Watch on X](https://x.com/Daniel_An23/status/2000664138037780722)
 
+✴️ **How Boris Uses Claude Code** — I've been deep in Claude Code since it launched. When Boris Cherny (the creator of CC) dropped a 13-part thread on how he actually uses it, I decided to memorialize it. Terminal aesthetic, tab navigation, built with the tool it's about. [howborisusesclaudecode.com](https://howborisusesclaudecode.com) | [X post](https://x.com/Daniel_An23/status/2007225382471360727)
+
 🔥 **The "Just Fucking Use" Collection** — For developers who need to stop overthinking:
 - [justfuckinguseclaudecode.com](https://justfuckinguseclaudecode.com)
 - [justfuckingusecopilot.com](https://justfuckingusecopilot.com)
