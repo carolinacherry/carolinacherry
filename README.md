@@ -6,7 +6,7 @@
 
 🤖 **GitHub** — Leading global go-to-market for Copilot across AMER, EMEA, and APAC. Helping developers ship faster with AI.
 
-🎯 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you.
+🎯 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you. **Demo:** [Watch on X](https://x.com/Daniel_An23/status/2000664138037780722)
 
 🔥 **The "Just Fucking Use" Collection** — For developers who need to stop overthinking:
 - [justfuckinguseclaudecode.com](https://justfuckinguseclaudecode.com)
@@ -16,6 +16,15 @@
 - [justfuckingusedeepseek.com](https://justfuckingusedeepseek.com)
 - [justfuckingusefigma.com](https://justfuckingusefigma.com)
 - [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
+
+## Kalshi Edge Bot
+I'm interested in building agents that perform tasks historically priced highly in society - trading, research, analysis. This is one of those experiments.
+
+**Kalshi Edge Bot** finds and trades mispriced contracts on Kalshi prediction markets. The core strategy is based on academic research analyzing 300K+ trades, which found that favorites (65-85¢ contracts) are systematically underpriced while longshots (<25¢) are overpriced. The bot scans for these opportunities, calculates the expected edge, and executes trades with configurable risk controls.
+
+**Features:** auto-trade mode, live sports trading via ESPN data, strategy backtesting with statistical significance testing, Discord notifications, watchlists, price alerts, and a live P&L dashboard.
+
+**Demos:** [v1](https://x.com/Daniel_An23/status/2005993658525573290) | [v2](https://x.com/Daniel_An23/status/2006427824832352701)
 
 ## The Résumé
 
