@@ -33,15 +33,21 @@ I'm interested in building agents that perform tasks historically priced highly 
 
 ## Professional Journey
 
-**Microsoft** (2022-2024) — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage.
+**Microsoft** (2022-2024, Remote) — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage.
 
-**Mozilla** (2021-2022) — Open web advocacy before it was cool. Kind of.
+**Mozilla** (2021-2022, Remote) — Open web advocacy before it was cool. Kind of.
 
-**Google** (2009–2021) — ~12 years. Authored their most-read Think with Google article. Mobile web performance research that influenced search ranking factors. Watched them invent the Transformer, then take a 5-year nap. Refer to: [justfuckingusegemini.com](https://justfuckingusegemini.com)
+**Google** (2009–2021, Dublin & Chicago) — ~12 years. Authored their most-read Think with Google article. Mobile web performance research that influenced search ranking factors. Watched them invent the Transformer, then take a 5-year nap. 👉 [justfuckingusegemini.com](https://justfuckingusegemini.com).
 
-**Executive Search** (2008-2009) — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunters.
+**Executive Search** (2008-2009, Boston) — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunting.
 
-**Barclays Global Investors** (2006-2008) — 2 & 20. Institutional Business Development (Active Equity, Fixed Income, Hedge Funds).
+**Barclays Global Investors** (2006-2008, San Francisco & Boston) — 2 & 20. Institutional Business Development: Active Equity, Fixed Income, Hedge Funds.
+
+**Wellington Management** (Boston) — Business Analyst.
+
+**Banc of America Securities** (London) — Summer Analyst: FX Sales & Trading - Interest Rates Swaps Trading.
+
+**Putnam Lovell Securities** (London) — Summer Analyst: FIG M&A.
 
 
  ## Open Source
