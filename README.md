@@ -18,6 +18,7 @@
 - [justfuckingusedeepseek.com](https://justfuckingusedeepseek.com)
 - [justfuckingusefigma.com](https://justfuckingusefigma.com)
 - [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
+- [justfuckingusesupabase.com](https://justfuckingusesupabase.com)
 
 ## Kalshi Edge Bot
 I'm interested in building agents that perform tasks historically priced highly in society - trading, research, analysis. This is one of those experiments.
