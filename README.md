@@ -4,9 +4,9 @@
 
 ## What I'm Up To
 
-🤖 **GitHub** — Leading global go-to-market for Copilot across AMER, EMEA, and APAC. Helping developers ship faster with AI.
+💻 **GitHub** — Leading global go-to-market for Copilot across AMER, EMEA, and APAC. Helping developers ship faster with AI.
 
-🎯 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you. **Demo:** [Watch on X](https://x.com/Daniel_An23/status/2000664138037780722)
+🌱 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you. **Demo:** [Watch on X](https://x.com/Daniel_An23/status/2000664138037780722)
 
 ✴️ **How Boris Uses Claude Code** — I've been deep in Claude Code since it launched. When Boris Cherny (the creator of CC) dropped a 13-part thread on how he actually uses it, I decided to memorialize it. Terminal aesthetic, tab navigation, built with the tool it's about. [howborisusesclaudecode.com](https://howborisusesclaudecode.com) | [X post](https://x.com/Daniel_An23/status/2007225382471360727)
 
@@ -20,9 +20,9 @@
 - [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
 - [justfuckingusesupabase.com](https://justfuckingusesupabase.com)
 
-## ⚽ Ralph FC                                            
+## Ralph FC                                            
                                                          
-**Ralph FC** — IDEs and terminals are boring to stare at all day, so I built a Simpsons-themed UI for running Claude Code agents. 11 agents as a soccer team. Set them loose, grab lunch, come back to a fixed codebase. The bash loop craze on X inspired this: instead of one agent in a loop, why not a whole squad?
+⚽ **Ralph FC** — IDEs and terminals are boring to stare at all day, so I built a Simpsons-themed UI for running Claude Code agents. 11 agents as a soccer team. Set them loose, grab lunch, come back to a fixed codebase. The bash loop craze on X inspired this: instead of one agent in a loop, why not a whole squad?
                                                          
 **Features:** specialized agents (Security, QA, Perf, Frontend, Backend, etc.), "Ralph Wiggum Mode" that loops until the task is done, live token tracking, diff viewer with accept/reject, one-click GitHub issue and PR creation, follow-up chat with agents after they finish, repo switcher that auto-clones from GitHub, per-repo localStorage persistence.                                           
                                                          
@@ -35,7 +35,7 @@ Why Ralph Wiggum? Because these agents are enthusiastic, occasionally brilliant,
 ## Kalshi Edge Bot
 I'm interested in building agents that perform tasks historically priced highly in society - trading, research, analysis. This is one of those experiments.
 
-**Kalshi Edge Bot** finds and trades mispriced contracts on Kalshi prediction markets. The core strategy is based on academic research analyzing 300K+ trades, which found that favorites (65-85¢ contracts) are systematically underpriced while longshots (<25¢) are overpriced. The bot scans for these opportunities, calculates the expected edge, and executes trades with configurable risk controls.
+📈 **Kalshi Edge Bot** finds and trades mispriced contracts on Kalshi prediction markets. The core strategy is based on academic research analyzing 300K+ trades, which found that favorites (65-85¢ contracts) are systematically underpriced while longshots (<25¢) are overpriced. The bot scans for these opportunities, calculates the expected edge, and executes trades with configurable risk controls.
 
 **Features:** auto-trade mode, live sports trading via ESPN data, strategy backtesting with statistical significance testing, Discord notifications, watchlists, price alerts, and a live P&L dashboard.
 
