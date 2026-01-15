@@ -20,6 +20,18 @@
 - [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
 - [justfuckingusesupabase.com](https://justfuckingusesupabase.com)
 
+## ⚽ Ralph FC                                            
+                                                         
+**Ralph FC** — IDEs and terminals are boring to stare at all day, so I built a Simpsons-themed UI for running Claude Code agents. 11 agents as a soccer team. Set them loose, grab lunch, come back to a fixed codebase. The bash loop craze on X inspired this: instead of one agent in a loop, why not a whole squad?
+                                                         
+**Features:** specialized agents (Security, QA, Perf, Frontend, Backend, etc.), "Ralph Wiggum Mode" that loops until the task is done, live token tracking, diff viewer with accept/reject, one-click GitHub issue and PR creation, follow-up chat with agents after they finish, repo switcher that auto-clones from GitHub, per-repo localStorage persistence.                                           
+                                                         
+Why Ralph Wiggum? Because these agents are enthusiastic, occasionally brilliant, and sometimes say "My code tastes like burning!"                        
+
+**Demo:** [v1](https://x.com/Daniel_An23/status/2011481601050349793)              
+
+<img width="2444" alt="Ralph FC UI" src="https://github.com/user-attachments/assets/8b692d7c-b2c1-41b6-9583-5840b33d678b" />                                             
+
 ## Kalshi Edge Bot
 I'm interested in building agents that perform tasks historically priced highly in society - trading, research, analysis. This is one of those experiments.
 
