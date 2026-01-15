@@ -69,6 +69,8 @@ I'm interested in building agents that perform tasks historically priced highly 
 
 📈 **[claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research)** — Claude Code plugin for institutional-grade equity research. 150+ ⭐
 
+🤣 **[JFU Claude Code](https://github.com/carolinacherry/justfuckinguseclaudecode.com)** - Just use it...
+
 ## Connect
 
 🌐 [danielan.io](https://danielan.io) · 💼 [LinkedIn](https://linkedin.com/in/andaniel) · 𝕏 [@Daniel_An23](https://x.com/Daniel_An23)
