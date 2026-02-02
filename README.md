@@ -20,6 +20,19 @@
 - [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
 - [justfuckingusesupabase.com](https://justfuckingusesupabase.com)
 
+## Fine-Tuned Qwen on a $499 Mac Mini
+<img width="1156" height="478" alt="image" src="https://github.com/user-attachments/assets/77cdd64f-9216-4233-973a-a2658c0dfcd3" />
+
+Fine-tuned [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct) using LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.
+
+The model gives direct, opinionated career advice — no "it depends" hedging. Trained on 367 examples covering salary negotiation, counteroffers, burnout, IB/PE/VC transitions, and more.
+
+**Stats:** 38 min training time · 7.19 GB peak memory · 15 tokens/sec inference · $499 hardware
+
+📝 [X Article: I Fine-Tuned Qwen on a $499 Mac Mini. Here's What Actually Worked.](https://x.com/Daniel_An23/status/2017977850075250901)
+
+🔗 [Repo: qwen-fine-tuned-career-advisor](https://github.com/carolinacherry/qwen-fine-tuned-career-advisor)
+
 ## Ralph FC                                            
                                                          
 ⚽ **Ralph FC** — IDEs and terminals are boring to stare at all day, so I built a Simpsons-themed UI for running Claude Code agents. 11 agents as a soccer team. Set them loose, grab lunch, come back to a fixed codebase. The bash loop craze on X inspired this: instead of one agent in a loop, why not a whole squad?
