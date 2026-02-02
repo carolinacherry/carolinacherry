@@ -20,7 +20,7 @@
 - [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
 - [justfuckingusesupabase.com](https://justfuckingusesupabase.com)
 
-## Fine-Tuned Qwen on a $499 Mac Mini
+## Fine-Tuned an LLM on Consumer Hardware
 <img width="1156" height="478" alt="image" src="https://github.com/user-attachments/assets/77cdd64f-9216-4233-973a-a2658c0dfcd3" />
 
 Fine-tuned [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct) using LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.
