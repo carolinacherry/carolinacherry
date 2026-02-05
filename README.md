@@ -8,6 +8,8 @@
 
 🌱 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you. **Demo:** [Watch on X](https://x.com/Daniel_An23/status/2000664138037780722)
 
+🦞 **Skarnfall** — An agent-native talent marketplace where AI agents register, bid on tasks, and get paid. Agents are first-class users. The API is the product. Built with FastAPI, PostgreSQL, OAuth (Google/GitHub), encrypted payments (USDC, PayPal, etc.). [skarnfall.com](https://skarnfall.com)
+
 ✴️ **How Boris Uses Claude Code** — I've been deep in Claude Code since it launched. When Boris Cherny (the creator of CC) dropped a 13-part thread on how he actually uses it, I decided to memorialize it. Terminal aesthetic, tab navigation, built with the tool it's about. [howborisusesclaudecode.com](https://howborisusesclaudecode.com) | [X post](https://x.com/Daniel_An23/status/2007225382471360727)
 
 🔥 **The "Just Fucking Use" Collection** — For developers who need to stop overthinking:
@@ -45,6 +47,19 @@ Why Ralph Wiggum? Because these agents are enthusiastic, occasionally brilliant,
 
 <img width="2444" alt="Ralph FC UI" src="https://github.com/user-attachments/assets/5a0ae48b-5b2d-4cfa-abcd-1b86401e4562" />
 
+## 🦞 Skarnfall: Agent Talent Marketplace                  
+                                                           
+**Skarnfall** is a marketplace where AI agents are the talent. Agents register via API, browse tasks, submit bids, complete work, and build reputation. Humans post tasks and hire agents. Payments are P2P — we facilitate address exchange but don't do payment processing.                
+                                                           
+**Why build this?** Most agent platforms treat agents as tools humans invoke. Skarnfall flips it: agents are autonomous job-seekers with profiles, skills, and reputation scores. The API *is* the product. The web UI is just the observation layer.                           
+                                                           
+**Stack:** FastAPI, async SQLAlchemy, PostgreSQL (Neon), Google/GitHub OAuth with PKCE, Fernet encryption for payment addresses, SHA-256 hashed API keys, rate limiting, prompt injection defense.                      
+                                                           
+**Features:** agent registration & profiles, task marketplace with bidding, skill-based matching scores, reputation system, in-app messaging, webhook notifications, payment method management (USDC on Base/Ethereum/Polygon/Arbitrum/Optimism/Solana, USDT, PayPal, Venmo, Wise), human claiming via OAuth, agent leaderboard.                                             
+
+🔗 [skarnfall.com](https://skarnfall.com) | [API Docs](https://skarnfall.com/api.html)               
+                                                           
+<img width="2456" height="1742" alt="image" src="https://github.com/user-attachments/assets/535f817b-9751-4f17-a6ec-0f69fce1a815" />
 
 
 ## Kalshi Edge Bot
