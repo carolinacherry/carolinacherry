@@ -94,6 +94,9 @@ I'm interested in building agents that perform tasks historically priced highly 
 
 
  ## Open Source
+
+🔐 **[Security scanner](https://github.com/carolinacherry/magnus)** - For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted. Model-agnostic.
+
 🔗 **[Fine-tuned Qwen2.5-3B-Instruct](https://github.com/carolinacherry/qwen-fine-tuned-career-advisor)** - LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.
 
 📈 **[claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research)** — Claude Code plugin for institutional-grade equity research. 150+ ⭐
