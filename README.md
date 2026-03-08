@@ -95,6 +95,8 @@ I'm interested in building agents that perform tasks historically priced highly 
 
  ## Open Source
 
+🍏 **[Local AI on iPhone](https://github.com/carolinacherry/local-ai)** - Run Qwen3.5 on your iPhone. No cloud. No API keys. No subscriptions. 100% on-device.
+
 🔐 **[Security scanner](https://github.com/carolinacherry/magnus)** - For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted. Model-agnostic.
 
 🔗 **[Fine-tuned Qwen2.5-3B-Instruct](https://github.com/carolinacherry/qwen-fine-tuned-career-advisor)** - LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.
