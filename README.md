@@ -95,6 +95,8 @@ I'm interested in building agents that perform tasks historically priced highly 
 
  ## Open Source
 
+🚵 **[GitHub as a Talent Database](https://github.com/carolinacherry/github-talent-mcp)** - MCP server that searches, scores, and ranks GitHub developers for technical recruiting.
+
 🍏 **[Local AI on iPhone](https://github.com/carolinacherry/local-ai)** - Run Qwen3.5 on your iPhone. No cloud. No API keys. No subscriptions. 100% on-device.
 
 🔐 **[Security scanner](https://github.com/carolinacherry/magnus)** - For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted. Model-agnostic.
