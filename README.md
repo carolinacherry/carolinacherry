@@ -95,6 +95,8 @@ I'm interested in building agents that perform tasks historically priced highly 
 
  ## Open Source
 
+🔀 **[Multi-Model Code Review](https://github.com/carolinacherry/compare-mcp)** — MCP server that fans out code review to multiple LLMs in parallel, diffs their findings, and runs debate rounds. For Claude Code CLI. 
+
 🚵 **[GitHub as a Talent Database](https://github.com/carolinacherry/github-talent-mcp)** - MCP server that searches, scores, and ranks GitHub developers for technical recruiting.
 
 🍏 **[Local AI on iPhone](https://github.com/carolinacherry/local-ai)** - Run Qwen3.5 on your iPhone. No cloud. No API keys. No subscriptions. 100% on-device.
