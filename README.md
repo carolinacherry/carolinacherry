@@ -112,3 +112,5 @@ I'm interested in building agents that perform tasks historically priced highly 
 ## Connect
 
 🌐 [danielan.io](https://danielan.io) · 💼 [LinkedIn](https://linkedin.com/in/andaniel) · 𝕏 [@Daniel_An23](https://x.com/Daniel_An23)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/danielan)
