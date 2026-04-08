@@ -1,3 +1,9 @@
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Director,+Global+AI/Copilot+GTM+Lead+@+GitHub;Founder+%26+CEO+@+Entopiq,+Inc;Building+agents+that+do+real+work&font=Fira+Code&center=true&width=700&height=45&color=58A6FF&size=20&pause=1000&duration=3000)](https://github.com/carolinacherry)
+
+</div>
+
 # Hey, I'm Daniel 👋
 
 **Director, Global AI/Copilot GTM Lead @ GitHub** | **Founder & CEO @ [Entopiq, Inc](https://entopiq.com)**
@@ -114,3 +120,17 @@ I'm interested in building agents that perform tasks historically priced highly 
 🌐 [danielan.io](https://danielan.io) · 💼 [LinkedIn](https://linkedin.com/in/andaniel) · 𝕏 [@Daniel_An23](https://x.com/Daniel_An23)
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/danielan)
+
+---
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=carolinacherry&theme=github-dark&area=true&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/carolinacherry)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake-dark.svg" />
+</picture>
+
+</div>
