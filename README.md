@@ -8,6 +8,14 @@
 
 **Director, Global AI/Copilot GTM Lead @ GitHub** | **Founder & CEO @ [Entopiq, Inc](https://entopiq.com)**
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake-dark.svg" />
+</picture>
+</div>
+
 ## What I'm Up To
 
 💻 **GitHub** — Leading global go-to-market for Copilot across AMER, EMEA, and APAC. Helping developers ship faster with AI.
@@ -126,11 +134,5 @@ I'm interested in building agents that perform tasks historically priced highly 
 <div align="center">
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=carolinacherry&theme=github-dark&area=true&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/carolinacherry)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/carolinacherry/carolinacherry/output/github-snake-dark.svg" />
-</picture>
 
 </div>
