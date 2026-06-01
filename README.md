@@ -16,120 +16,80 @@
 </picture>
 </div>
 
-## What I'm Up To
+<div align="center">
+<a href="https://howborisusesclaudecode.com"><img src="assets/card-boris.svg" width="46%" alt="npx shadcn add carolinacherry/howborisusesclaudecode.com/boris" /></a>
+&nbsp;&nbsp;
+<a href="https://howborisusesclaudecode.com"><img src="assets/card-thariq.svg" width="46%" alt="npx shadcn add carolinacherry/howborisusesclaudecode.com/thariq" /></a>
+<br/>
+<sub>↑ Claude Code skills I ship — install straight from GitHub</sub>
+</div>
 
-💻 **GitHub** — Leading global go-to-market for Copilot across AMER, EMEA, and APAC. Helping developers ship faster with AI.
+<br/>
 
-🌱 **Entopiq** — Video-first talent discovery. Replacing résumés with 90-second videos, AI matching, and an AI Headhunter that finds candidates for you. **Demo:** [Watch on X](https://x.com/Daniel_An23/status/2000664138037780722)
+<table>
+<tr>
+<td valign="top" width="50%">
 
-📍 **wakecountyschoolchoice.com** — An independent, parent-built guide to Wake County (NC) school choice. Every base school, magnet, charter, and private option, mapped to your address. No sign-up, no ads, no rankings. Built because no one had a straight answer. [wakecountyschoolchoice.com](https://wakecountyschoolchoice.com)
+<h3>🚀 Building</h3>
 
-🦞 **Skarnfall** — An agent-native talent marketplace where AI agents register, bid on tasks, and get paid. Agents are first-class users. The API is the product. Built with FastAPI, PostgreSQL, OAuth (Google/GitHub), encrypted payments (USDC, PayPal, etc). [skarnfall.com](https://skarnfall.com)
+<b>🌱 <a href="https://entopiq.com">Entopiq</a></b> — Video-first talent discovery. Résumés become 90-second videos with AI matching and an AI Headhunter that finds candidates for you. <a href="https://x.com/Daniel_An23/status/2000664138037780722">Demo&nbsp;↗</a>
+<br/><br/>
 
-✴️ **How Boris Uses Claude Code** — I've been deep in Claude Code since it launched. When Boris Cherny (the creator of CC) dropped a 13-part thread on how he actually uses it, I decided to memorialize it. Terminal aesthetic, tab navigation, built with the tool it's about. [howborisusesclaudecode.com](https://howborisusesclaudecode.com) | [X post](https://x.com/Daniel_An23/status/2007225382471360727)
+<b>✴️ <a href="https://howborisusesclaudecode.com">How Boris Uses Claude Code</a></b> — I memorialized Boris Cherny's 13-part thread on how he actually uses CC. Terminal aesthetic, built with the tool it's about. <a href="https://x.com/Daniel_An23/status/2007225382471360727">X&nbsp;↗</a>
+<br/><br/>
 
-🔥 **The "Just Fucking Use" Collection** — For developers who need to stop overthinking:
-- [justfuckinguseclaudecode.com](https://justfuckinguseclaudecode.com)
-- [justfuckingusecopilot.com](https://justfuckingusecopilot.com)
-- [justfuckingusegemini.com](https://justfuckingusegemini.com)
-- [justfuckingusenanobanana.com](https://justfuckingusenanobanana.com)
-- [justfuckingusedeepseek.com](https://justfuckingusedeepseek.com)
-- [justfuckingusefigma.com](https://justfuckingusefigma.com)
-- [justfuckinguseperplexity.com](https://justfuckinguseperplexity.com)
-- [justfuckingusesupabase.com](https://justfuckingusesupabase.com)
+<b>⚽ <a href="https://x.com/Daniel_An23/status/2011481601050349793">Ralph FC</a></b> — A Simpsons-themed UI for running Claude Code agents as an 11-agent soccer team. Set them loose, grab lunch, come back to a fixed codebase. "Ralph Wiggum Mode" loops until done.
+<br/>
+<img src="https://github.com/user-attachments/assets/5a0ae48b-5b2d-4cfa-abcd-1b86401e4562" width="100%" alt="Ralph FC UI" />
+<br/><br/>
 
-## Fine-Tuned an LLM on Consumer Hardware
-<img width="1156" height="478" alt="image" src="https://github.com/user-attachments/assets/77cdd64f-9216-4233-973a-a2658c0dfcd3" />
+<b>🦞 <a href="https://skarnfall.com">Skarnfall</a></b> — An agent-native talent marketplace where AI agents register, bid on tasks, and get paid. Agents are first-class users; the API <i>is</i> the product. FastAPI · PostgreSQL · OAuth · encrypted payments.
+<br/>
+<img src="https://github.com/user-attachments/assets/535f817b-9751-4f17-a6ec-0f69fce1a815" width="100%" alt="Skarnfall" />
+<br/><br/>
 
-Fine-tuned [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct) using LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.
+<b>📈 <a href="https://x.com/Daniel_An23/status/2006427824832352701">Kalshi Edge Bot</a></b> — Finds and trades mispriced contracts on Kalshi prediction markets. Built on research over 300K+ trades: favorites are underpriced, longshots overpriced. Auto-trade, backtesting, live P&amp;L.
+<br/>
+<img src="https://github.com/user-attachments/assets/4e48af08-5953-4e1c-bb2a-6e8363fc6bae" width="100%" alt="Kalshi Edge Bot" />
+<br/><br/>
 
-The model gives direct, opinionated career advice — no "it depends" hedging. Trained on 367 examples covering salary negotiation, counteroffers, burnout, IB/PE/VC transitions, and more.
+<b>🔥 The "Just Fucking Use" Collection</b> — for developers who need to stop overthinking:
+<a href="https://justfuckinguseclaudecode.com">CC</a> · <a href="https://justfuckingusecopilot.com">Copilot</a> · <a href="https://justfuckingusegemini.com">Gemini</a> · <a href="https://justfuckingusenanobanana.com">Nano&nbsp;Banana</a> · <a href="https://justfuckingusedeepseek.com">DeepSeek</a> · <a href="https://justfuckingusefigma.com">Figma</a> · <a href="https://justfuckinguseperplexity.com">Perplexity</a> · <a href="https://justfuckingusesupabase.com">Supabase</a>
 
-**Stats:** 38 min training time · 7.19 GB peak memory · 15 tokens/sec inference · $499 hardware
+</td>
+<td valign="top" width="50%">
 
-📝 [X Article: I Fine-Tuned Qwen on a $499 Mac Mini. Here's What Actually Worked.](https://x.com/Daniel_An23/status/2017977850075250901)
+<h3>🧭 Professional Journey</h3>
 
-🔗 [Repo: qwen-fine-tuned-career-advisor](https://github.com/carolinacherry/qwen-fine-tuned-career-advisor)
+<table>
+<tr><td><b>GitHub</b></td><td>Director, Global AI/Copilot GTM</td></tr>
+<tr><td><b>Microsoft</b></td><td>'22–'24 · AI/Web3 partnerships (<a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/">TechCrunch</a>, <a href="https://blockworks.co/news/microsoft-axelar-team-up">Blockworks</a>)</td></tr>
+<tr><td><b>Mozilla</b></td><td>'21–'22 · Open web advocacy</td></tr>
+<tr><td><b>Google</b></td><td>'09–'21 · ~12 yrs. Most-read Think with Google article; mobile web perf research</td></tr>
+<tr><td><b>Exec Search</b></td><td>'08–'09 · Headhunter during the '08 crisis</td></tr>
+<tr><td><b>Barclays&nbsp;GI</b></td><td>'06–'08 · Institutional BD: Equity, FI, Hedge Funds</td></tr>
+<tr><td><b>Wellington</b></td><td>Business Analyst</td></tr>
+<tr><td><b>Banc&nbsp;of&nbsp;America</b></td><td>Summer Analyst · FX Sales &amp; Trading (London)</td></tr>
+</table>
 
-## Ralph FC                                            
-                                                         
-⚽ **Ralph FC** — IDEs and terminals are boring to stare at all day, so I built a Simpsons-themed UI for running Claude Code agents. 11 agents as a soccer team. Set them loose, grab lunch, come back to a fixed codebase. The bash loop craze on X inspired this: instead of one agent in a loop, why not a whole squad?
-                                                         
-**Features:** specialized agents (Security, QA, Perf, Frontend, Backend, etc.), "Ralph Wiggum Mode" that loops until the task is done, live token tracking, diff viewer with accept/reject, one-click GitHub issue and PR creation, follow-up chat with agents after they finish, repo switcher that auto-clones from GitHub, per-repo localStorage persistence, model picker (Opus, Sonnet, Haiku).                                           
-                                                         
-Why Ralph Wiggum? Because these agents are enthusiastic, occasionally brilliant, and sometimes say "My code tastes like burning!"                        
+<h3>📦 Open Source</h3>
 
-**Demo:** [v1](https://x.com/Daniel_An23/status/2011481601050349793)              
+🔀 <a href="https://github.com/carolinacherry/compare-mcp"><b>Multi-Model Code Review</b></a> — MCP server that fans code review out to multiple LLMs in parallel, then runs debate rounds.<br/><br/>
+🚵 <a href="https://github.com/carolinacherry/github-talent-mcp"><b>GitHub as a Talent Database</b></a> — MCP server that searches, scores, and ranks developers for recruiting.<br/><br/>
+🍏 <a href="https://github.com/carolinacherry/local-ai"><b>Local AI on iPhone</b></a> — Run Qwen3.5 on your iPhone. No cloud, no API keys, 100% on-device.<br/><br/>
+🔐 <a href="https://github.com/carolinacherry/magnus"><b>Magnus</b></a> — Self-hosted security scanner for solo devs. Autonomous vuln discovery with fix guides.<br/><br/>
+🔗 <a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><b>Fine-tuned Qwen2.5-3B</b></a> — LoRA + MLX on a base M4 Mac Mini (16GB). 38&nbsp;min train · 15&nbsp;tok/s · $499 hardware. <a href="https://x.com/Daniel_An23/status/2017977850075250901">Write-up&nbsp;↗</a><br/><br/>
+📈 <a href="https://github.com/quant-sentiment-ai/claude-equity-research"><b>claude-equity-research</b></a> — Claude Code plugin for institutional-grade equity research. 150+&nbsp;⭐
 
-<img width="2444" alt="Ralph FC UI" src="https://github.com/user-attachments/assets/5a0ae48b-5b2d-4cfa-abcd-1b86401e4562" />
+<h3>🔗 Connect</h3>
 
-## 🦞 Skarnfall: Agent Talent Marketplace                  
-                                                           
-**Skarnfall** is a marketplace where AI agents are the talent. Agents register via API, browse tasks, submit bids, complete work, and build reputation. Humans post tasks and hire agents. Payments are P2P — we facilitate address exchange but don't do payment processing.                
-                                                           
-**Why build this?** Most agent platforms treat agents as tools humans invoke. Skarnfall flips it: agents are autonomous job-seekers with profiles, skills, and reputation scores. The API *is* the product. The web UI is just the observation layer.                           
-                                                           
-**Stack:** FastAPI, async SQLAlchemy, PostgreSQL (Neon), Google/GitHub OAuth with PKCE, Fernet encryption for payment addresses, SHA-256 hashed API keys, rate limiting, prompt injection defense.                      
-                                                           
-**Features:** agent registration & profiles, task marketplace with bidding, skill-based matching scores, reputation system, in-app messaging, webhook notifications, payment method management (USDC on Base/Ethereum/Polygon/Arbitrum/Optimism/Solana, USDT, PayPal, Venmo, Wise), human claiming via OAuth, agent leaderboard.                                             
+🌐 <a href="https://danielan.io">danielan.io</a> · 💼 <a href="https://linkedin.com/in/andaniel">LinkedIn</a> · 𝕏 <a href="https://x.com/Daniel_An23">@Daniel_An23</a>
+<br/><br/>
+<a href="https://buymeacoffee.com/danielan"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
 
-🔗 [skarnfall.com](https://skarnfall.com) | [API Docs](https://skarnfall.com/api.html)               
-                                                           
-<img width="2456" height="1742" alt="image" src="https://github.com/user-attachments/assets/535f817b-9751-4f17-a6ec-0f69fce1a815" />
-
-
-## Kalshi Edge Bot
-I'm interested in building agents that perform tasks historically priced highly in society - trading, research, analysis. This is one of those experiments.
-
-📈 **Kalshi Edge Bot** finds and trades mispriced contracts on Kalshi prediction markets. The core strategy is based on academic research analyzing 300K+ trades, which found that favorites (65-85¢ contracts) are systematically underpriced while longshots (<25¢) are overpriced. The bot scans for these opportunities, calculates the expected edge, and executes trades with configurable risk controls.
-
-**Features:** auto-trade mode, live sports trading via ESPN data, strategy backtesting with statistical significance testing, Discord notifications, watchlists, price alerts, and a live P&L dashboard.
-
-**Demos:** [v1](https://x.com/Daniel_An23/status/2005993658525573290) | [v2](https://x.com/Daniel_An23/status/2006427824832352701)
-
-<img width="2444" height="1778" alt="image" src="https://github.com/user-attachments/assets/4e48af08-5953-4e1c-bb2a-6e8363fc6bae" />
-
-
-## Professional Journey
-
-**Microsoft** (2022-2024, Remote) — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage.
-
-**Mozilla** (2021-2022, Remote) — Open web advocacy before it was cool. Kind of.
-
-**Google** (2009–2021, Dublin & Chicago) — ~12 years. Authored their most-read Think with Google article. Mobile web performance research that influenced search ranking factors. Watched them invent the Transformer, then take a 5-year nap. 👉 [justfuckingusegemini.com](https://justfuckingusegemini.com).
-
-**Executive Search** (2008-2009, Boston) — Worked as a headhunter during the '08 financial crisis. Now I'm building AI to automate headhunting.
-
-**Barclays Global Investors** (2006-2008, San Francisco & Boston) — 2 & 20. Institutional Business Development: Active Equity, Fixed Income, Hedge Funds.
-
-**Wellington Management** (Boston) — Business Analyst.
-
-**Banc of America Securities** (London) — Summer Analyst: FX Sales & Trading - Interest Rates Swaps Trading.
-
-**Putnam Lovell Securities** (London) — Summer Analyst: FIG M&A.
-
-
- ## Open Source
-
-🔀 **[Multi-Model Code Review](https://github.com/carolinacherry/compare-mcp)** — MCP server that fans out code review to multiple LLMs in parallel, diffs their findings, and runs debate rounds. For Claude Code CLI. 
-
-🚵 **[GitHub as a Talent Database](https://github.com/carolinacherry/github-talent-mcp)** - MCP server that searches, scores, and ranks GitHub developers for technical recruiting.
-
-🍏 **[Local AI on iPhone](https://github.com/carolinacherry/local-ai)** - Run Qwen3.5 on your iPhone. No cloud. No API keys. No subscriptions. 100% on-device.
-
-🔐 **[Security scanner](https://github.com/carolinacherry/magnus)** - For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted. Model-agnostic.
-
-🔗 **[Fine-tuned Qwen2.5-3B-Instruct](https://github.com/carolinacherry/qwen-fine-tuned-career-advisor)** - LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.
-
-📈 **[claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research)** — Claude Code plugin for institutional-grade equity research. 400+ ⭐
-
-🤣 **[JFU Claude Code](https://github.com/carolinacherry/justfuckinguseclaudecode.com)** - Just use it...
-
-## Connect
-
-🌐 [danielan.io](https://danielan.io) · 💼 [LinkedIn](https://linkedin.com/in/andaniel) · 𝕏 [@Daniel_An23](https://x.com/Daniel_An23)
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/danielan)
+</td>
+</tr>
+</table>
 
 ---
 
