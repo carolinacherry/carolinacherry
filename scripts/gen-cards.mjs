@@ -227,7 +227,7 @@ function chip(text, markPath, color = "#c9d1d9", stroke = false) {
   const tx = padX + markW + gap;
   const markAttrs = stroke ? `fill="none" stroke="${color}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"` : `fill="${color}"`;
   const markSvg = markPath ? `<g transform="translate(${padX},4) scale(${(15 / 24).toFixed(4)})" ${markAttrs}>${markPath}</g>` : "";
-  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(text)}">${markSvg}<text x="${tx}" y="16" font-size="${fs}" fill="${color}" font-family="${C.sans}">${esc(text)}</text></svg>\n`;
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(text)}">${markSvg}<text x="${tx}" y="17" font-size="${fs}" fill="${color}" font-family="${C.sans}">${esc(text)}</text></svg>\n`;
 }
 writeFileSync(new URL("link-web.svg", OUT), chip("danielan.io", null));
 writeFileSync(new URL("link-linkedin.svg", OUT), chip("LinkedIn", LINKEDIN_PATH));
