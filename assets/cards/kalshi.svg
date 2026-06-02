@@ -1,0 +1,16 @@
+<svg width="480" height="160" viewBox="0 0 480 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kalshi Edge Bot">
+  <rect x="1" y="1" width="478" height="158" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <rect x="0" y="14" width="4" height="132" rx="2" fill="#484f58"/>
+  <g transform="translate(38,29) scale(0.8)" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></g>
+  <text x="66" y="46" font-size="17" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Kalshi Edge Bot</text>
+  <text x="38" y="76" font-size="13.5" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">Trades mispriced contracts on Kalshi prediction markets,</text>
+  <text x="38" y="97" font-size="13.5" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif">off research over 300K+ trades. Auto-trade, live P&amp;L.</text>
+  <g>
+    <rect x="38" y="122" width="69" height="24" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+    <text x="72.5" y="138" font-size="11.5" fill="#adbac7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Trading</text>
+  </g>
+  <g>
+    <rect x="115" y="122" width="97" height="24" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+    <text x="163.5" y="138" font-size="11.5" fill="#adbac7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Backtesting</text>
+  </g>
+</svg>

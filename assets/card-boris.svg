@@ -1,0 +1,44 @@
+<svg width="480" height="168" viewBox="0 0 480 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="npx shadcn@latest add https://howborisusesclaudecode.com/r/boris.json">
+  <defs>
+    <clipPath id="wipe-boris">
+      <rect x="18" y="66" width="0" height="66">
+        <animate attributeName="width" values="0;450" dur="2.2s" begin="0.4s" fill="freeze" calcMode="linear"/>
+      </rect>
+    </clipPath>
+    <style>
+      .mono { font-family: "SF Mono","Fira Code",ui-monospace,"DejaVu Sans Mono",monospace; }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="478" height="166" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- title bar -->
+  <circle cx="26" cy="28" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="28" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="28" r="6" fill="#27c93f"/>
+  <text class="mono" x="90" y="33" font-size="13" fill="#6e7681">boris.skill</text>
+  <line x1="14" y1="50" x2="466" y2="50" stroke="#21262d" stroke-width="1"/>
+
+  <!-- typed command (wipe-revealed) -->
+  <g clip-path="url(#wipe-boris)">
+    <text class="mono" x="22" y="92" font-size="15">
+      <tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> npx shadcn@latest add</tspan>
+    </text>
+    <text class="mono" x="22" y="118" font-size="14">
+      <tspan fill="#8b949e">https://howborisusesclaudecode.com/r</tspan><tspan fill="#d2a8ff">/boris.json</tspan>
+    </text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="416" y="106" width="9" height="15" fill="#58a6ff" opacity="0">
+    <set attributeName="opacity" to="1" begin="2.5s"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="2.5s" repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
+
+  <!-- footer -->
+  <text class="mono" x="22" y="150" font-size="12" fill="#6e7681" opacity="0">
+    <tspan fill="#3fb950">&#9656;</tspan> 92 tips &#183; surfaces while you code
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
+  </text>
+</svg>
