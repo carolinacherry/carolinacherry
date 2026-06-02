@@ -220,19 +220,20 @@ writeFileSync(new URL("journey.svg", OUT), journeyGraphic());
 const LINKEDIN_PATH = '<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>';
 const X_PATH = '<path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>';
 
-function chip(text, markPath) {
+function chip(text, markPath, color = "#c9d1d9") {
   const fs = 13.5, H = 22, padX = 4, markW = markPath ? 15 : 0, gap = markPath ? 7 : 0;
   const tw = text.length * 7.1;
   const W = Math.round(padX + markW + gap + tw + padX);
   const tx = padX + markW + gap;
-  const markSvg = markPath ? `<g transform="translate(${padX},4) scale(${(15 / 24).toFixed(4)})" fill="#c9d1d9">${markPath}</g>` : "";
-  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(text)}">${markSvg}<text x="${tx}" y="16" font-size="${fs}" fill="#c9d1d9" font-family="${C.sans}">${esc(text)}</text></svg>\n`;
+  const markSvg = markPath ? `<g transform="translate(${padX},4) scale(${(15 / 24).toFixed(4)})" fill="${color}">${markPath}</g>` : "";
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(text)}">${markSvg}<text x="${tx}" y="16" font-size="${fs}" fill="${color}" font-family="${C.sans}">${esc(text)}</text></svg>\n`;
 }
 writeFileSync(new URL("link-web.svg", OUT), chip("danielan.io", null));
 writeFileSync(new URL("link-linkedin.svg", OUT), chip("LinkedIn", LINKEDIN_PATH));
 writeFileSync(new URL("link-x.svg", OUT), chip("@Daniel_An23", X_PATH));
+writeFileSync(new URL("link-press.svg", OUT), chip("Press", null, "#8b949e"));
 writeFileSync(new URL("link-techcrunch.svg", OUT), chip("TechCrunch", null));
-writeFileSync(new URL("link-blockworks.svg", OUT), chip("Blockworks", null));
+writeFileSync(new URL("link-blockworks.svg", OUT), chip("·  Blockworks", null));
 
 // ---- Hero subtitle: two single-line SVGs so each can link separately ----
 function subtitleLine(role, company) {
