@@ -117,7 +117,7 @@ const projects = [
   { file: "qwen", ic: ICON.gitBranch, title: "Fine-tuned Qwen2.5-3B-Instruct", accent: "#484f58",
     desc: "LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.", chips: ["MLX", "LoRA"] },
   { file: "equity", ic: ICON.barChart, title: "claude-equity-research", accent: "#484f58",
-    desc: "Claude Code plugin for institutional-grade equity research. 400+ stars.", chips: ["Plugin", "Equity Research"] }
+    desc: "Claude Code plugin for institutional-grade equity research. 549 stars.", chips: ["Plugin", "Equity Research"] }
 ];
 
 for (const p of projects) writeFileSync(new URL(`${p.file}.svg`, OUT), card(p));
