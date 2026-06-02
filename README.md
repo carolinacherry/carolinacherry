@@ -6,7 +6,8 @@
 
 # Hey, I'm Daniel 👋
 
-<img src="assets/cards/subtitle.svg" width="470" alt="Director, Global AI/Copilot GTM Lead @ GitHub · Founder & CEO @ Entopiq" />
+Director, Global AI/Copilot GTM Lead · [**GitHub**](https://danielan.io)<br/>
+Founder & CEO · [**Entopiq**](https://entopiq.com)
 
 <div align="center">
 <picture>
@@ -55,7 +56,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 </div>
 
 <div align="center">
-<sub>Press:</sub>&nbsp; <a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg" height="15" align="center" /></a> <sub>·</sub> <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg" height="15" align="center" /></a>
+Press &nbsp; <a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg" height="18" /></a> &nbsp;·&nbsp; <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg" height="18" /></a>
 </div>
 
 ## Open Source
