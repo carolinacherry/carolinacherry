@@ -57,7 +57,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 
 <div align="center">
 
-Press &nbsp; <a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg" height="22" /></a> &nbsp; <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg?v=2" height="22" /></a>
+<a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg?v=2" height="22" /></a> &nbsp; <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg?v=2" height="22" /></a>
 
 </div>
 
