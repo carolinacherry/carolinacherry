@@ -43,7 +43,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 ## Professional Journey
 
 <div align="center">
-<img src="assets/cards/journey.svg?v=5" width="96%" alt="Career trajectory and journey" />
+<img src="assets/cards/journey.svg?v=6" width="96%" alt="Career trajectory and journey" />
 </div>
 
 <sub>Press: [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) · [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up)</sub>
@@ -63,7 +63,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 
 <div align="center">
 
-<a href="https://danielan.io">danielan.io</a> &nbsp;·&nbsp; <img src="assets/linkedin.svg" height="14" align="center" />&nbsp;<a href="https://linkedin.com/in/andaniel">LinkedIn</a> &nbsp;·&nbsp; 𝕏 <a href="https://x.com/Daniel_An23">@Daniel_An23</a>
+<a href="https://danielan.io"><img src="assets/cards/link-web.svg" height="17" align="center" /></a> &nbsp;&nbsp; <a href="https://linkedin.com/in/andaniel"><img src="assets/cards/link-linkedin.svg" height="17" align="center" /></a> &nbsp;&nbsp; <a href="https://x.com/Daniel_An23"><img src="assets/cards/link-x.svg" height="17" align="center" /></a>
 
 <a href="https://buymeacoffee.com/danielan"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
 

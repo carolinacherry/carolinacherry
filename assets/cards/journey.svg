@@ -25,7 +25,7 @@
   <circle cx="434.0" cy="169.2" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
   <text x="434.0" y="153.2" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Google</text>
   <text x="434.0" y="269" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'09</text>
-  <g transform="translate(549.7,96.3) scale(0.75)" fill="#c9d1d9"><path d="M0 0v24h24V0zm10.13 6.706c1.481 0 2.858.706 3.352 2.224.565-1.377 1.73-2.224 3.353-2.224 1.87 0 3.565 1.13 3.565 3.564v4.765h1.412v2.26h-4.341v-5.86c0-1.8-.6-2.47-1.765-2.47-1.412 0-1.976 1.024-1.976 2.435V15h1.376v2.259h-4.341v-5.824c0-1.8-.6-2.47-1.765-2.47-1.412 0-1.976 1.024-1.976 2.435V15H9v2.259H2.647V15h1.377V9.176H2.647V6.918H6.99V8.47c.635-1.095 1.693-1.765 3.14-1.765z"/></g>
+  <text x="558.7" y="110.3" font-size="15" font-weight="700" fill="#c9d1d9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">moz://a</text>
   <circle cx="558.7" cy="145.3" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
   <text x="558.7" y="129.3" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Mozilla</text>
   <text x="558.7" y="269" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'21</text>
