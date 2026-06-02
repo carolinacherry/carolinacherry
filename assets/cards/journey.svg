@@ -1,33 +1,48 @@
-<svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Career trajectory — up and to the right">
+<svg width="860" height="500" viewBox="0 0 860 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Career trajectory — up and to the right">
   <defs>
     <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#3fb950" stop-opacity="0.32"/>
       <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="858" height="318" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <line x1="50" y1="272" x2="818" y2="272" stroke="#30363d" stroke-width="1"/>
-  <path d="M60.0,272 L60.0,272.0 L184.7,236.2 L309.3,216.7 L434.0,164.6 L558.7,132.1 L683.3,96.3 L808.0,54.0 L808.0,272 Z" fill="url(#grad)"/>
-  <path d="M60.0,272.0 L184.7,236.2 L309.3,216.7 L434.0,164.6 L558.7,132.1 L683.3,96.3 L808.0,54.0" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="60.0" cy="272.0" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-  <text x="60.0" y="258.0" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Finance</text>
-  <text x="60.0" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">earlier</text>
-  <circle cx="184.7" cy="236.2" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-  <text x="184.7" y="222.2" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Barclays GI</text>
-  <text x="184.7" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'06</text>
-  <circle cx="309.3" cy="216.7" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-  <text x="309.3" y="202.7" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Exec Search</text>
-  <text x="309.3" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'08</text>
-  <circle cx="434.0" cy="164.6" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-  <text x="434.0" y="150.6" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Google</text>
-  <text x="434.0" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'09</text>
-  <circle cx="558.7" cy="132.1" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-  <text x="558.7" y="118.1" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Mozilla</text>
-  <text x="558.7" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'21</text>
-  <circle cx="683.3" cy="96.3" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
-  <text x="683.3" y="82.3" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Microsoft</text>
-  <text x="683.3" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'22</text>
-  <circle cx="808.0" cy="54.0" r="6" fill="#3fb950" stroke="#3fb950" stroke-width="2"/>
-  <text x="808.0" y="40.0" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">GitHub</text>
-  <text x="808.0" y="293" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">now</text>
+  <rect x="1" y="1" width="858" height="498" rx="14" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <line x1="50" y1="236" x2="818" y2="236" stroke="#30363d" stroke-width="1"/>
+  <path d="M60.0,236 L60.0,236.0 L184.7,205.8 L309.3,189.3 L434.0,145.4 L558.7,117.9 L683.3,87.7 L808.0,52.0 L808.0,236 Z" fill="url(#grad)"/>
+  <path d="M60.0,236.0 L184.7,205.8 L309.3,189.3 L434.0,145.4 L558.7,117.9 L683.3,87.7 L808.0,52.0" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60.0" cy="236.0" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="60.0" y="223.0" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Finance</text>
+  <text x="60.0" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">earlier</text>
+  <circle cx="184.7" cy="205.8" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="184.7" y="192.8" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Barclays GI</text>
+  <text x="184.7" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'06</text>
+  <circle cx="309.3" cy="189.3" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="309.3" y="176.3" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Exec Search</text>
+  <text x="309.3" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'08</text>
+  <circle cx="434.0" cy="145.4" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="434.0" y="132.4" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Google</text>
+  <text x="434.0" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'09</text>
+  <circle cx="558.7" cy="117.9" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="558.7" y="104.9" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Mozilla</text>
+  <text x="558.7" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'21</text>
+  <circle cx="683.3" cy="87.7" r="4" fill="#0d1117" stroke="#3fb950" stroke-width="2"/>
+  <text x="683.3" y="74.7" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Microsoft</text>
+  <text x="683.3" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">'22</text>
+  <circle cx="808.0" cy="52.0" r="6" fill="#3fb950" stroke="#3fb950" stroke-width="2"/>
+  <text x="808.0" y="39.0" font-size="12.5" font-weight="700" fill="#e6edf3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">GitHub</text>
+  <text x="808.0" y="257" font-size="11" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" text-anchor="middle">now</text>
+  <line x1="60" y1="280" x2="808" y2="280" stroke="#21262d" stroke-width="1"/>
+  <circle cx="63" cy="304" r="3" fill="#3fb950"/>
+  <text x="76" y="308" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">GitHub</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;Director, Global AI/Copilot GTM Lead</tspan></text>
+  <circle cx="63" cy="332" r="3" fill="#3fb950"/>
+  <text x="76" y="336" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">Microsoft</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;AI/Web3 partnerships — TechCrunch + Blockworks coverage</tspan></text>
+  <circle cx="63" cy="360" r="3" fill="#3fb950"/>
+  <text x="76" y="364" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">Mozilla</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;Open web advocacy before it was cool. Kind of.</tspan></text>
+  <circle cx="63" cy="388" r="3" fill="#3fb950"/>
+  <text x="76" y="392" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">Google</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;~12 years · most-read Think with Google article; mobile web performance research</tspan></text>
+  <circle cx="63" cy="416" r="3" fill="#3fb950"/>
+  <text x="76" y="420" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">Executive Search</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;Headhunter during the '08 financial crisis. Now building AI to automate it.</tspan></text>
+  <circle cx="63" cy="444" r="3" fill="#3fb950"/>
+  <text x="76" y="448" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">Barclays Global Investors</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;Institutional BD: Active Equity, Fixed Income, Hedge Funds</tspan></text>
+  <circle cx="63" cy="472" r="3" fill="#3fb950"/>
+  <text x="76" y="476" font-size="12.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"><tspan font-weight="700" fill="#e6edf3">Wellington · Banc of America · Putnam Lovell</tspan><tspan fill="#8b949e">&#160;&#160;—&#160;&#160;Business Analyst · FX Sales &amp; Trading · FIG M&amp;A (London)</tspan></text>
 </svg>

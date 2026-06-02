@@ -135,26 +135,49 @@ const PTS = [
   { org: "GitHub", yr: "now", role: "Director, Global AI/Copilot GTM Lead", lvl: 7.7 }
 ];
 
-function chart() {
-  const TW = 860, H = 320, padL = 60, padR = 52, padTop = 54, padB = 48;
-  const n = PTS.length, plotW = TW - padL - padR, top = padTop, bot = H - padB;
+// Legend (most-recent first) — full journey text, same as the original timeline
+const LEGEND = [
+  { org: "GitHub", role: "Director, Global AI/Copilot GTM Lead" },
+  { org: "Microsoft", role: "AI/Web3 partnerships — TechCrunch + Blockworks coverage" },
+  { org: "Mozilla", role: "Open web advocacy before it was cool. Kind of." },
+  { org: "Google", role: "~12 years · most-read Think with Google article; mobile web performance research" },
+  { org: "Executive Search", role: "Headhunter during the '08 financial crisis. Now building AI to automate it." },
+  { org: "Barclays Global Investors", role: "Institutional BD: Active Equity, Fixed Income, Hedge Funds" },
+  { org: "Wellington · Banc of America · Putnam Lovell", role: "Business Analyst · FX Sales & Trading · FIG M&A (London)" }
+];
+
+function journeyGraphic() {
+  const TW = 860, padL = 60, padR = 52, chartTop = 52, chartBot = 236;
+  const n = PTS.length, plotW = TW - padL - padR;
   const min = 1, max = 7.7;
   const X = (i) => padL + i * (plotW / (n - 1));
-  const Y = (l) => bot - ((l - min) / (max - min)) * (bot - top);
+  const Y = (l) => chartBot - ((l - min) / (max - min)) * (chartBot - chartTop);
   const co = PTS.map((p, i) => ({ ...p, x: X(i), y: Y(p.lvl) }));
 
   const line = co.map((c, i) => `${i ? "L" : "M"}${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ");
-  const area = `M${co[0].x.toFixed(1)},${bot} ` + co.map((c) => `L${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ") + ` L${co[n - 1].x.toFixed(1)},${bot} Z`;
-
+  const area = `M${co[0].x.toFixed(1)},${chartBot} ` + co.map((c) => `L${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ") + ` L${co[n - 1].x.toFixed(1)},${chartBot} Z`;
   const marks = co
     .map((c, i) => {
       const last = i === n - 1;
       return `
   <circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="${last ? 6 : 4}" fill="${last ? ACCENT : C.bg}" stroke="${ACCENT}" stroke-width="2"/>
-  <text x="${c.x.toFixed(1)}" y="${(c.y - 14).toFixed(1)}" font-size="12.5" font-weight="700" fill="${C.title}" font-family="${C.sans}" text-anchor="middle">${esc(c.org)}</text>
-  <text x="${c.x.toFixed(1)}" y="${bot + 21}" font-size="11" fill="${C.desc}" font-family="${mono}" text-anchor="middle">${esc(c.yr)}</text>`;
+  <text x="${c.x.toFixed(1)}" y="${(c.y - 13).toFixed(1)}" font-size="12.5" font-weight="700" fill="${C.title}" font-family="${C.sans}" text-anchor="middle">${esc(c.org)}</text>
+  <text x="${c.x.toFixed(1)}" y="${chartBot + 21}" font-size="11" fill="${C.desc}" font-family="${mono}" text-anchor="middle">${esc(c.yr)}</text>`;
     })
     .join("");
+
+  const dividerY = chartBot + 44;
+  const legendTop = dividerY + 28;
+  const rowH = 28;
+  const legend = LEGEND
+    .map((e, i) => {
+      const ly = legendTop + i * rowH;
+      return `
+  <circle cx="${padL + 3}" cy="${ly - 4}" r="3" fill="${ACCENT}"/>
+  <text x="${padL + 16}" y="${ly}" font-size="12.5" font-family="${C.sans}"><tspan font-weight="700" fill="${C.title}">${esc(e.org)}</tspan><tspan fill="${C.desc}">&#160;&#160;—&#160;&#160;${esc(e.role)}</tspan></text>`;
+    })
+    .join("");
+  const H = legendTop + (LEGEND.length - 1) * rowH + 24;
 
   return `<svg width="${TW}" height="${H}" viewBox="0 0 ${TW} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Career trajectory — up and to the right">
   <defs>
@@ -164,11 +187,12 @@ function chart() {
     </linearGradient>
   </defs>
   <rect x="1" y="1" width="${TW - 2}" height="${H - 2}" rx="14" fill="${C.bg}" stroke="${C.border}" stroke-width="1"/>
-  <line x1="${padL - 10}" y1="${bot}" x2="${TW - padR + 10}" y2="${bot}" stroke="${C.chipBorder}" stroke-width="1"/>
+  <line x1="${padL - 10}" y1="${chartBot}" x2="${TW - padR + 10}" y2="${chartBot}" stroke="${C.chipBorder}" stroke-width="1"/>
   <path d="${area}" fill="url(#grad)"/>
   <path d="${line}" fill="none" stroke="${ACCENT}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>${marks}
+  <line x1="${padL}" y1="${dividerY}" x2="${TW - padR}" y2="${dividerY}" stroke="${C.border}" stroke-width="1"/>${legend}
 </svg>\n`;
 }
-writeFileSync(new URL("journey.svg", OUT), chart());
+writeFileSync(new URL("journey.svg", OUT), journeyGraphic());
 
 console.log("generated", projects.length, "cards + journey chart");
