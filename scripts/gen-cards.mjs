@@ -245,4 +245,50 @@ function subtitle() {
 }
 writeFileSync(new URL("subtitle.svg", OUT), subtitle());
 
-console.log("generated", projects.length, "cards + journey chart + chips + subtitle");
+// ---- Tech stack (monochrome logo pills, grouped) ----
+const STACK = [
+  { label: "AGENTS & CLI", items: [["Claude Code", "anthropic"], ["Copilot CLI", "githubcopilot"], ["Gemini CLI", "googlegemini"], ["MCP", null]] },
+  { label: "MODELS & APIs", items: [["Anthropic", "anthropic"], ["OpenAI", "openai"], ["Gemini", "googlegemini"], ["MLX", null], ["Ollama", "ollama"]] },
+  { label: "LANGUAGES & BACKEND", items: [["Python", "python"], ["TypeScript", "typescript"], ["Swift", "swift"], ["FastAPI", "fastapi"]] },
+  { label: "DATA & DEPLOY", items: [["PostgreSQL", "postgresql"], ["Supabase", "supabase"], ["Netlify", "netlify"], ["Vercel", "vercel"]] },
+  { label: "DEV & OPS", items: [["VS Code", null], ["Docker", "docker"], ["Playwright", null], ["Sentry", "sentry"], ["GitHub", "github"]] }
+];
+
+const stackPaths = {};
+const slugs = [...new Set(STACK.flatMap((g) => g.items.map((i) => i[1])).filter(Boolean))];
+for (const s of slugs) {
+  try {
+    const r = await fetch(`https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/${s}.svg`);
+    if (r.ok) {
+      const m = (await r.text()).match(/ d="([^"]+)"/);
+      if (m) stackPaths[s] = m[1];
+    }
+  } catch { /* fall back to text-only pill */ }
+}
+
+function stackGraphic() {
+  const W = 860, fs = 12.5, pillH = 26, gap = 8, lineGap = 10, groupGap = 24, labelGap = 26, startX = 26, maxX = W - 26;
+  let y = 28, body = "";
+  for (const g of STACK) {
+    body += `\n  <text x="${startX}" y="${y}" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#6e7681" font-family="${C.sans}">${esc(g.label)}</text>`;
+    y += labelGap;
+    let x = startX;
+    for (const [label, slug] of g.items) {
+      const hasLogo = slug && stackPaths[slug];
+      const logoW = hasLogo ? 15 : 0, innerGap = hasLogo ? 6 : 0;
+      const pw = Math.round(11 + logoW + innerGap + label.length * 7 + 11);
+      if (x + pw > maxX) { x = startX; y += pillH + lineGap; }
+      const logoSvg = hasLogo ? `<g transform="translate(${x + 11},${y + 5}) scale(0.625)" fill="#c9d1d9"><path d="${stackPaths[slug]}"/></g>` : "";
+      body += `\n  <rect x="${x}" y="${y}" width="${pw}" height="${pillH}" rx="13" fill="none" stroke="${C.chipBorder}" stroke-width="1"/>${logoSvg}<text x="${x + 11 + logoW + innerGap}" y="${y + 17}" font-size="${fs}" fill="#c9d1d9" font-family="${C.sans}">${esc(label)}</text>`;
+      x += pw + gap;
+    }
+    y += pillH + groupGap;
+  }
+  const H = y - groupGap + 22;
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack">
+  <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="14" fill="${C.bg}" stroke="${C.border}" stroke-width="1"/>${body}
+</svg>\n`;
+}
+writeFileSync(new URL("stack.svg", OUT), stackGraphic());
+
+console.log("generated", projects.length, "cards + journey + chips + subtitle + stack (" + Object.keys(stackPaths).length + " logos)");

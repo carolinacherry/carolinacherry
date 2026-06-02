@@ -6,7 +6,7 @@
 
 # Hey, I'm Daniel 👋
 
-<img src="assets/cards/subtitle.svg" width="470" alt="Director, Global AI/Copilot GTM Lead @ GitHub · Founder & CEO @ Entopiq" />
+<a href="https://danielan.io"><img src="assets/cards/subtitle.svg" width="470" alt="Director, Global AI/Copilot GTM Lead @ GitHub · Founder & CEO @ Entopiq" /></a>
 
 <div align="center">
 <picture>
@@ -40,6 +40,12 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 <a href="https://skarnfall.com"><img src="assets/cards/skarnfall.svg?v=2" width="47%" /></a>
 <a href="https://x.com/Daniel_An23/status/2006427824832352701"><img src="assets/cards/kalshi.svg?v=2" width="47%" /></a>
 <a href="https://justfuckinguseclaudecode.com"><img src="assets/cards/jfu.svg?v=2" width="47%" /></a>
+</div>
+
+## Stack
+
+<div align="center">
+<img src="assets/cards/stack.svg" width="96%" alt="Tech stack" />
 </div>
 
 ## Professional Journey
