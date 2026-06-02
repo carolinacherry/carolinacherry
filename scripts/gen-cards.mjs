@@ -11,9 +11,20 @@ const C = {
   border: "#21262d",
   title: "#e6edf3",
   desc: "#8b949e",
+  icon: "#8b949e",
   chipText: "#adbac7",
   chipBorder: "#30363d",
   sans: "-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif"
+};
+
+// Grey monochrome line icons (Lucide, MIT) for Open Source cards.
+const ICON = {
+  shuffle: '<path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+  smartphone: '<rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>',
+  shield: '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>',
+  gitBranch: '<line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>',
+  barChart: '<path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="6"/><rect x="13" y="7" width="3" height="10"/>'
 };
 
 const W = 480, PAD = 24, STRIPE = 4;
@@ -34,7 +45,7 @@ function wrap(text, max = Math.floor(INNER / CHAR)) {
 
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-function card({ icon, title, desc, chips, accent, link }) {
+function card({ ic, title, desc, chips, accent, link }) {
   const lines = wrap(desc).slice(0, 2);
   const titleY = 46;
   const descTop = 76;
@@ -60,10 +71,16 @@ function card({ icon, title, desc, chips, accent, link }) {
     })
     .join("\n  ");
 
+  const iconSvg = ic
+    ? `<g transform="translate(${x0},${titleY - 17}) scale(0.8)" fill="none" stroke="${C.icon}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${ic}</g>`
+    : "";
+  const titleX = ic ? x0 + 28 : x0;
+
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(title)}">
   <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="14" fill="${C.bg}" stroke="${C.border}" stroke-width="1"/>
   <rect x="0" y="14" width="${STRIPE}" height="${H - 28}" rx="2" fill="${accent}"/>
-  <text x="${x0}" y="${titleY}" font-size="17" font-weight="700" fill="${C.title}" font-family="${C.sans}">${esc(title)}</text>
+  ${iconSvg}
+  <text x="${titleX}" y="${titleY}" font-size="17" font-weight="700" fill="${C.title}" font-family="${C.sans}">${esc(title)}</text>
   ${descSvg}
   ${chipSvg}
 </svg>\n`;
@@ -83,17 +100,17 @@ const projects = [
   { file: "jfu", icon: "🔥", title: "Just Fucking Use", accent: "#f85149",
     desc: "A collection of no-nonsense landing pages for developers who need to stop overthinking their tools.", chips: ["8 sites"] },
   // open source
-  { file: "compare", icon: "🔀", title: "Multi-Model Code Review", accent: "#58a6ff",
+  { file: "compare", ic: ICON.shuffle, title: "Multi-Model Code Review", accent: "#484f58",
     desc: "MCP server that fans code review out to multiple LLMs in parallel, diffs their findings, and runs debate rounds.", chips: ["MCP"] },
-  { file: "talent", icon: "🚵", title: "GitHub as a Talent Database", accent: "#3fb950",
+  { file: "talent", ic: ICON.users, title: "GitHub as a Talent Database", accent: "#484f58",
     desc: "MCP server that searches, scores, and ranks GitHub developers for technical recruiting.", chips: ["MCP"] },
-  { file: "localai", icon: "🍏", title: "Local AI on iPhone", accent: "#d2a8ff",
+  { file: "localai", ic: ICON.smartphone, title: "Local AI on iPhone", accent: "#484f58",
     desc: "Run Qwen3.5 on your iPhone. No cloud, no API keys, no subscriptions. 100% on-device.", chips: ["iOS", "MLX"] },
-  { file: "magnus", icon: "🔐", title: "Security scanner", accent: "#f0883e",
+  { file: "magnus", ic: ICON.shield, title: "Security scanner", accent: "#484f58",
     desc: "For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted, model-agnostic.", chips: ["Security"] },
-  { file: "qwen", icon: "🔗", title: "Fine-tuned Qwen2.5-3B-Instruct", accent: "#2dd4bf",
+  { file: "qwen", ic: ICON.gitBranch, title: "Fine-tuned Qwen2.5-3B-Instruct", accent: "#484f58",
     desc: "LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.", chips: ["MLX", "LoRA"] },
-  { file: "equity", icon: "📊", title: "claude-equity-research", accent: "#f778ba",
+  { file: "equity", ic: ICON.barChart, title: "claude-equity-research", accent: "#484f58",
     desc: "Claude Code plugin for institutional-grade equity research. 400+ stars.", chips: ["Plugin"] }
 ];
 
