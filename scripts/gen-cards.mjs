@@ -231,7 +231,6 @@ function chip(text, markPath, color = "#c9d1d9") {
 writeFileSync(new URL("link-web.svg", OUT), chip("danielan.io", null));
 writeFileSync(new URL("link-linkedin.svg", OUT), chip("LinkedIn", LINKEDIN_PATH));
 writeFileSync(new URL("link-x.svg", OUT), chip("@Daniel_An23", X_PATH));
-writeFileSync(new URL("link-press.svg", OUT), chip("Press", null, "#8b949e"));
 writeFileSync(new URL("link-techcrunch.svg", OUT), chip("TechCrunch", null));
 writeFileSync(new URL("link-blockworks.svg", OUT), chip("·  Blockworks", null));
 
