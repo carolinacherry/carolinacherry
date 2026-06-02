@@ -107,17 +107,17 @@ const projects = [
     desc: "A collection of no-nonsense landing pages for developers who need to stop overthinking their tools.", chips: ["8 sites"] },
   // open source
   { file: "compare", ic: ICON.shuffle, title: "Multi-Model Code Review", accent: "#484f58",
-    desc: "MCP server that fans code review out to multiple LLMs in parallel, diffs their findings, and runs debate rounds.", chips: ["MCP"] },
+    desc: "MCP server that fans code review out to multiple LLMs in parallel, diffs their findings, and runs debate rounds.", chips: ["MCP", "Code Review"] },
   { file: "talent", ic: ICON.users, title: "GitHub as a Talent Database", accent: "#484f58",
-    desc: "MCP server that searches, scores, and ranks GitHub developers for technical recruiting.", chips: ["MCP"] },
+    desc: "MCP server that searches, scores, and ranks GitHub developers for technical recruiting.", chips: ["MCP", "Technical Sourcing"] },
   { file: "localai", ic: ICON.smartphone, title: "Local AI on iPhone", accent: "#484f58",
     desc: "Run Qwen3.5 on your iPhone. No cloud, no API keys, no subscriptions. 100% on-device.", chips: ["iOS", "MLX"] },
   { file: "magnus", ic: ICON.shield, title: "Security scanner", accent: "#484f58",
-    desc: "For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted, model-agnostic.", chips: ["Security"] },
+    desc: "For solo devs. Autonomous vulnerability discovery with fix guides. Self-hosted, model-agnostic.", chips: ["Security", "Self-hosted"] },
   { file: "qwen", ic: ICON.gitBranch, title: "Fine-tuned Qwen2.5-3B-Instruct", accent: "#484f58",
     desc: "LoRA + MLX on a base M4 Mac Mini (16GB). No cloud, no rented GPUs.", chips: ["MLX", "LoRA"] },
   { file: "equity", ic: ICON.barChart, title: "claude-equity-research", accent: "#484f58",
-    desc: "Claude Code plugin for institutional-grade equity research. 400+ stars.", chips: ["Plugin"] }
+    desc: "Claude Code plugin for institutional-grade equity research. 400+ stars.", chips: ["Plugin", "Equity Research"] }
 ];
 
 for (const p of projects) writeFileSync(new URL(`${p.file}.svg`, OUT), card(p));
