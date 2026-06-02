@@ -126,7 +126,7 @@ for (const p of projects) writeFileSync(new URL(`${p.file}.svg`, OUT), card(p));
 const mono = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace";
 const ACCENT = "#3fb950";
 const PTS = [
-  { org: "Finance", yr: "earlier", logo: "finance", lvl: 1.0 },
+  { org: "Internships", yr: "earlier", logo: "finance", lvl: 1.0 },
   { org: "Barclays", yr: "'06", logo: "barclays", lvl: 2.1 },
   { org: "Exec Search", yr: "'08", logo: "exec", lvl: 2.7 },
   { org: "Google", yr: "'09", logo: "google", lvl: 4.3 },
