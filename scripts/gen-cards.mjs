@@ -234,6 +234,15 @@ writeFileSync(new URL("link-x.svg", OUT), chip("@Daniel_An23", X_PATH));
 writeFileSync(new URL("link-techcrunch.svg", OUT), chip("TechCrunch", null));
 writeFileSync(new URL("link-blockworks.svg", OUT), chip("Blockworks", null));
 
+// ---- Hero subtitle: two single-line SVGs so each can link separately ----
+function subtitleLine(role, company) {
+  const fs = 15, x = 3, H = 26;
+  const W = Math.round(x + (role + "    " + company).length * 8 + 8);
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(role)} · ${esc(company)}"><text x="${x}" y="18" font-size="${fs}" font-family="${C.sans}"><tspan fill="#8b949e">${esc(role)}</tspan><tspan fill="#6e7681">&#160;&#160;·&#160;&#160;</tspan><tspan fill="#e6edf3" font-weight="600">${esc(company)}</tspan></text></svg>\n`;
+}
+writeFileSync(new URL("subtitle-role.svg", OUT), subtitleLine("Director, Global AI/Copilot GTM Lead", "GitHub"));
+writeFileSync(new URL("subtitle-founder.svg", OUT), subtitleLine("Founder &amp; CEO", "Entopiq"));
+
 // ---- Tech stack (monochrome logo pills, grouped) ----
 const STACK = [
   { label: "AGENTS & CLI", items: [["Claude Code", "anthropic"], ["Copilot CLI", "githubcopilot"], ["Gemini CLI", "googlegemini"], ["MCP", null]] },
