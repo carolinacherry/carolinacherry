@@ -21,7 +21,7 @@
 &nbsp;&nbsp;
 <a href="https://howborisusesclaudecode.com"><img src="assets/card-thariq.svg" width="46%" alt="npx shadcn add carolinacherry/howborisusesclaudecode.com/thariq" /></a>
 <br/>
-<sub>↑ Claude Code skills I ship — install straight from GitHub</sub>
+<sub>↑ Claude Code skills I ship — one <code>npx shadcn add</code> drops them into your project's <code>.claude/skills/</code></sub>
 </div>
 
 <br/>
