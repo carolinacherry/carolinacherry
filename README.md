@@ -54,7 +54,9 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 <img src="assets/cards/journey.svg?v=8" width="96%" alt="Career trajectory and journey" />
 </div>
 
+<div align="center">
 <sub>Press:</sub>&nbsp; <a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg" height="15" align="center" /></a> <sub>·</sub> <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg" height="15" align="center" /></a>
+</div>
 
 ## Open Source
 
