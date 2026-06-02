@@ -24,7 +24,13 @@ const ICON = {
   smartphone: '<rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>',
   shield: '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>',
   gitBranch: '<line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>',
-  barChart: '<path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="6"/><rect x="13" y="7" width="3" height="10"/>'
+  barChart: '<path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="6"/><rect x="13" y="7" width="3" height="10"/>',
+  video: '<path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/>',
+  terminal: '<polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/>',
+  bot: '<path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>',
+  network: '<rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>',
+  trendingUp: '<polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>',
+  flame: '<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>'
 };
 
 const W = 480, PAD = 24, STRIPE = 4;
@@ -87,17 +93,17 @@ function card({ ic, title, desc, chips, accent, link }) {
 }
 
 const projects = [
-  { file: "entopiq", icon: "🌱", title: "Entopiq", accent: "#3fb950",
+  { file: "entopiq", ic: ICON.video, title: "Entopiq", accent: "#484f58",
     desc: "Video-first talent discovery — résumés become 90-second videos with AI matching and an AI Headhunter.", chips: ["Video", "AI matching"] },
-  { file: "boris-proj", icon: "✴️", title: "How Boris Uses Claude Code", accent: "#d2a8ff",
+  { file: "boris-proj", ic: ICON.terminal, title: "How Boris Uses Claude Code", accent: "#484f58",
     desc: "Memorialized Boris Cherny's 13-part thread on how he actually uses CC. Terminal aesthetic, built with the tool.", chips: ["Skill", "shadcn registry"] },
-  { file: "ralph", icon: "⚽", title: "Ralph FC", accent: "#58a6ff",
+  { file: "ralph", ic: ICON.bot, title: "Ralph FC", accent: "#484f58",
     desc: "A Simpsons-themed UI running Claude Code agents as an 11-agent soccer team. Ralph Wiggum Mode loops until done.", chips: ["Agents", "Claude Code"] },
-  { file: "skarnfall", icon: "🦞", title: "Skarnfall", accent: "#f78166",
+  { file: "skarnfall", ic: ICON.network, title: "Skarnfall", accent: "#484f58",
     desc: "An agent-native talent marketplace — AI agents register, bid, and get paid. The API is the product.", chips: ["FastAPI", "PostgreSQL", "OAuth"] },
-  { file: "kalshi", icon: "📈", title: "Kalshi Edge Bot", accent: "#2dd4bf",
+  { file: "kalshi", ic: ICON.trendingUp, title: "Kalshi Edge Bot", accent: "#484f58",
     desc: "Trades mispriced contracts on Kalshi prediction markets, off research over 300K+ trades. Auto-trade, live P&L.", chips: ["Trading", "Backtesting"] },
-  { file: "jfu", icon: "🔥", title: "Just Fucking Use", accent: "#f85149",
+  { file: "jfu", ic: ICON.flame, title: "Just Fucking Use", accent: "#484f58",
     desc: "A collection of no-nonsense landing pages for developers who need to stop overthinking their tools.", chips: ["8 sites"] },
   // open source
   { file: "compare", ic: ICON.shuffle, title: "Multi-Model Code Review", accent: "#484f58",
