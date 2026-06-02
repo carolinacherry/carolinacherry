@@ -31,95 +31,34 @@ npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — 
 
 ## 🚀 Building
 
-<table>
-<tr>
-<td valign="top" width="50%">
-<b>🌱 <a href="https://entopiq.com">Entopiq</a></b><br/>
-Video-first talent discovery — résumés become 90-second videos with AI matching and an AI Headhunter. <a href="https://x.com/Daniel_An23/status/2000664138037780722">Demo&nbsp;↗</a><br/>
-<kbd> Video </kbd> <kbd> AI matching </kbd>
-</td>
-<td valign="top" width="50%">
-<b>✴️ <a href="https://howborisusesclaudecode.com">How Boris Uses Claude Code</a></b><br/>
-Memorialized Boris Cherny's 13-part thread on how he actually uses CC. Terminal aesthetic, built with the tool. <a href="https://x.com/Daniel_An23/status/2007225382471360727">X&nbsp;↗</a><br/>
-<kbd> Skill </kbd> <kbd> shadcn registry </kbd>
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-<b>⚽ <a href="https://x.com/Daniel_An23/status/2011481601050349793">Ralph FC</a></b><br/>
-A Simpsons-themed UI for running Claude Code agents as an 11-agent soccer team. "Ralph Wiggum Mode" loops until done. <a href="https://x.com/Daniel_An23/status/2011481601050349793">Demo&nbsp;↗</a><br/>
-<kbd> Agents </kbd> <kbd> Claude Code </kbd>
-</td>
-<td valign="top" width="50%">
-<b>🦞 <a href="https://skarnfall.com">Skarnfall</a></b><br/>
-An agent-native talent marketplace — AI agents register, bid, and get paid. Agents are first-class users; the API <i>is</i> the product. <a href="https://skarnfall.com">Site&nbsp;↗</a><br/>
-<kbd> FastAPI </kbd> <kbd> PostgreSQL </kbd> <kbd> OAuth </kbd>
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-<b>📈 <a href="https://x.com/Daniel_An23/status/2006427824832352701">Kalshi Edge Bot</a></b><br/>
-Trades mispriced contracts on Kalshi prediction markets, off research over 300K+ trades. Auto-trade, backtesting, live P&amp;L. <a href="https://x.com/Daniel_An23/status/2006427824832352701">Demo&nbsp;↗</a><br/>
-<kbd> Trading </kbd> <kbd> Backtesting </kbd>
-</td>
-<td valign="top" width="50%">
-<b>🔥 The "Just Fucking Use" Collection</b><br/>
-For developers who need to stop overthinking:<br/>
-<a href="https://justfuckinguseclaudecode.com">CC</a> · <a href="https://justfuckingusecopilot.com">Copilot</a> · <a href="https://justfuckingusegemini.com">Gemini</a> · <a href="https://justfuckingusenanobanana.com">Nano&nbsp;Banana</a> · <a href="https://justfuckingusedeepseek.com">DeepSeek</a> · <a href="https://justfuckingusefigma.com">Figma</a> · <a href="https://justfuckinguseperplexity.com">Perplexity</a> · <a href="https://justfuckingusesupabase.com">Supabase</a>
-</td>
-</tr>
-</table>
+<div align="center">
+<a href="https://entopiq.com"><img src="assets/cards/entopiq.svg" width="47%" /></a>
+<a href="https://howborisusesclaudecode.com"><img src="assets/cards/boris-proj.svg" width="47%" /></a>
+<a href="https://x.com/Daniel_An23/status/2011481601050349793"><img src="assets/cards/ralph.svg" width="47%" /></a>
+<a href="https://skarnfall.com"><img src="assets/cards/skarnfall.svg" width="47%" /></a>
+<a href="https://x.com/Daniel_An23/status/2006427824832352701"><img src="assets/cards/kalshi.svg" width="47%" /></a>
+<a href="https://justfuckinguseclaudecode.com"><img src="assets/cards/jfu.svg" width="47%" /></a>
+</div>
 
-## 🧭 Journey
+## 🧭 Professional Journey
 
-<kbd>&nbsp;2024&nbsp;→&nbsp;now&nbsp;</kbd> &nbsp;**GitHub** — Director, Global AI/Copilot GTM Lead<br/><br/>
-<kbd>&nbsp;2022&nbsp;–&nbsp;2024&nbsp;</kbd> &nbsp;**Microsoft** — AI/Web3 partnerships · [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/), [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up)<br/><br/>
-<kbd>&nbsp;2021&nbsp;–&nbsp;2022&nbsp;</kbd> &nbsp;**Mozilla** — Open web advocacy<br/><br/>
-<kbd>&nbsp;2009&nbsp;–&nbsp;2021&nbsp;</kbd> &nbsp;**Google** — ~12 yrs · most-read Think with Google article; mobile web performance research<br/><br/>
-<kbd>&nbsp;2008&nbsp;–&nbsp;2009&nbsp;</kbd> &nbsp;**Executive Search** — headhunter during the '08 financial crisis<br/><br/>
+<kbd>&nbsp;2022&nbsp;–&nbsp;2024&nbsp;</kbd> &nbsp;**Microsoft** — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage<br/><br/>
+<kbd>&nbsp;2021&nbsp;–&nbsp;2022&nbsp;</kbd> &nbsp;**Mozilla** — Open web advocacy before it was cool. Kind of.<br/><br/>
+<kbd>&nbsp;2009&nbsp;–&nbsp;2021&nbsp;</kbd> &nbsp;**Google** — ~12 years · authored their most-read Think with Google article; mobile web performance research that influenced search ranking<br/><br/>
+<kbd>&nbsp;2008&nbsp;–&nbsp;2009&nbsp;</kbd> &nbsp;**Executive Search** — headhunter during the '08 financial crisis. Now I'm building AI to automate it.<br/><br/>
 <kbd>&nbsp;2006&nbsp;–&nbsp;2008&nbsp;</kbd> &nbsp;**Barclays Global Investors** — Institutional BD: Active Equity, Fixed Income, Hedge Funds<br/><br/>
-<kbd>&nbsp;earlier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</kbd> &nbsp;**Wellington Management** · Business Analyst &nbsp;·&nbsp; **Banc of America Securities** · FX Sales &amp; Trading, London
+<kbd>&nbsp;earlier&nbsp;</kbd> &nbsp;**Wellington Management** · Business Analyst &nbsp;—&nbsp; **Banc of America Securities** · FX Sales &amp; Trading (London) &nbsp;—&nbsp; **Putnam Lovell Securities** · FIG M&amp;A (London)
 
 ## 📦 Open Source
 
-<table>
-<tr>
-<td valign="top" width="50%">
-🔀 <b><a href="https://github.com/carolinacherry/compare-mcp">Multi-Model Code Review</a></b><br/>
-Fans code review out to multiple LLMs in parallel, then runs debate rounds.<br/>
-<kbd> MCP </kbd>
-</td>
-<td valign="top" width="50%">
-🚵 <b><a href="https://github.com/carolinacherry/github-talent-mcp">GitHub as a Talent Database</a></b><br/>
-Searches, scores, and ranks developers for technical recruiting.<br/>
-<kbd> MCP </kbd>
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-🍏 <b><a href="https://github.com/carolinacherry/local-ai">Local AI on iPhone</a></b><br/>
-Run Qwen3.5 on your iPhone. No cloud, no API keys, 100% on-device.<br/>
-<kbd> iOS </kbd> <kbd> MLX </kbd>
-</td>
-<td valign="top" width="50%">
-🔐 <b><a href="https://github.com/carolinacherry/magnus">Magnus</a></b><br/>
-Self-hosted security scanner for solo devs. Autonomous vuln discovery with fix guides.<br/>
-<kbd> Security </kbd>
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-🔗 <b><a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor">Fine-tuned Qwen2.5-3B</a></b><br/>
-LoRA + MLX on a $499 M4 Mac Mini · 38&nbsp;min train. <a href="https://x.com/Daniel_An23/status/2017977850075250901">Write-up&nbsp;↗</a><br/>
-<kbd> MLX </kbd> <kbd> LoRA </kbd>
-</td>
-<td valign="top" width="50%">
-📈 <b><a href="https://github.com/quant-sentiment-ai/claude-equity-research">claude-equity-research</a></b><br/>
-Claude Code plugin for institutional-grade equity research. 150+&nbsp;⭐<br/>
-<kbd> Plugin </kbd>
-</td>
-</tr>
-</table>
+<div align="center">
+<a href="https://github.com/carolinacherry/compare-mcp"><img src="assets/cards/compare.svg" width="47%" /></a>
+<a href="https://github.com/carolinacherry/github-talent-mcp"><img src="assets/cards/talent.svg" width="47%" /></a>
+<a href="https://github.com/carolinacherry/local-ai"><img src="assets/cards/localai.svg" width="47%" /></a>
+<a href="https://github.com/carolinacherry/magnus"><img src="assets/cards/magnus.svg" width="47%" /></a>
+<a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><img src="assets/cards/qwen.svg" width="47%" /></a>
+<a href="https://github.com/quant-sentiment-ai/claude-equity-research"><img src="assets/cards/equity.svg" width="47%" /></a>
+</div>
 
 ---
 
