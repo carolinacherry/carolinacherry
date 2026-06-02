@@ -126,14 +126,26 @@ for (const p of projects) writeFileSync(new URL(`${p.file}.svg`, OUT), card(p));
 const mono = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace";
 const ACCENT = "#3fb950";
 const PTS = [
-  { org: "Finance", yr: "earlier", role: "Wellington · Banc of America · Putnam Lovell", lvl: 1.0 },
-  { org: "Barclays", yr: "'06", role: "Institutional BD: Equity, Fixed Income, Hedge Funds", lvl: 2.1 },
-  { org: "Exec Search", yr: "'08", role: "Headhunter during the '08 crisis", lvl: 2.7 },
-  { org: "Google", yr: "'09", role: "~12 yrs · most-read Think with Google article", lvl: 4.3 },
-  { org: "Mozilla", yr: "'21", role: "Open web advocacy", lvl: 5.3 },
-  { org: "Microsoft", yr: "'22", role: "AI/Web3 partnerships", lvl: 6.4 },
-  { org: "GitHub", yr: "now", role: "Director, Global AI/Copilot GTM Lead", lvl: 7.7 }
+  { org: "Finance", yr: "earlier", logo: "finance", lvl: 1.0 },
+  { org: "Barclays", yr: "'06", logo: "barclays", lvl: 2.1 },
+  { org: "Exec Search", yr: "'08", logo: "exec", lvl: 2.7 },
+  { org: "Google", yr: "'09", logo: "google", lvl: 4.3 },
+  { org: "Mozilla", yr: "'21", logo: "mozilla", lvl: 5.3 },
+  { org: "Microsoft", yr: "'22", logo: "microsoft", lvl: 6.4 },
+  { org: "GitHub", yr: "now", logo: "github", lvl: 7.7 }
 ];
+
+// Monochrome marks rendered above each point. Brand glyphs (CC0 artwork from
+// simple-icons) identify past employers; line icons stand in for grouped roles.
+const LOGO = {
+  finance: { stroke: true, m: '<line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/>' },
+  exec: { stroke: true, m: '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>' },
+  microsoft: { stroke: false, m: '<rect x="1" y="1" width="10" height="10"/><rect x="13" y="1" width="10" height="10"/><rect x="1" y="13" width="10" height="10"/><rect x="13" y="13" width="10" height="10"/>' },
+  google: { stroke: false, m: '<path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>' },
+  mozilla: { stroke: false, m: '<path d="M0 0v24h24V0zm10.13 6.706c1.481 0 2.858.706 3.352 2.224.565-1.377 1.73-2.224 3.353-2.224 1.87 0 3.565 1.13 3.565 3.564v4.765h1.412v2.26h-4.341v-5.86c0-1.8-.6-2.47-1.765-2.47-1.412 0-1.976 1.024-1.976 2.435V15h1.376v2.259h-4.341v-5.824c0-1.8-.6-2.47-1.765-2.47-1.412 0-1.976 1.024-1.976 2.435V15H9v2.259H2.647V15h1.377V9.176H2.647V6.918H6.99V8.47c.635-1.095 1.693-1.765 3.14-1.765z"/>' },
+  github: { stroke: false, m: '<path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>' },
+  barclays: { stroke: false, m: '<path d="M21.043 3.629a3.235 3.235 0 0 0-1.048-.54 3.076 3.076 0 0 0-.937-.144h-.046c-.413.006-1.184.105-1.701.71a1.138 1.138 0 0 0-.226 1.023.9.9 0 0 0 .555.63s.088.032.228.058c-.04.078-.136.214-.136.214-.179.265-.576.612-1.668.612h-.063c-.578-.038-1.056-.189-1.616-.915-.347-.45-.523-1.207-.549-2.452-.022-.624-.107-1.165-.256-1.6-.1-.29-.333-.596-.557-.742a2.55 2.55 0 0 0-.694-.336c-.373-.12-.848-.14-1.204-.146-.462-.01-.717.096-.878.292-.027.033-.032.05-.068.046-.084-.006-.272-.006-.328-.006-.264 0-.498.043-.721.09-.47.1-.761.295-1.019.503-.12.095-.347.365-.399.653a.76.76 0 0 0 .097.578c.14-.148.374-.264.816-.266.493-.002 1.169.224 1.406.608.336.547.27.99.199 1.517-.183 1.347-.68 2.048-1.783 2.203-.191.026-.38.04-.56.04-.776 0-1.34-.248-1.63-.716a.71.71 0 0 1-.088-.168s.087-.021.163-.056c.294-.14.514-.344.594-.661.09-.353.004-.728-.23-1.007-.415-.47-.991-.708-1.713-.708-.4 0-.755.076-.982.14-.908.256-1.633.947-2.214 2.112-.412.824-.7 1.912-.81 3.067-.11 1.13-.056 2.085.019 2.949.124 1.437.363 2.298.708 3.22a15.68 15.68 0 0 0 1.609 3.19c.09-.094.15-.161.308-.318.188-.19.724-.893.876-1.11.19-.27.51-.779.664-1.147l.15.119c.16.127.252.348.249.592-.003.215-.053.464-.184.922a8.703 8.703 0 0 1-.784 1.818c-.189.341-.27.508-.199.584.015.015.038.03.06.026.116 0 .34-.117.585-.304.222-.17.813-.672 1.527-1.675a15.449 15.449 0 0 0 1.452-2.521c.12.046.255.101.317.226a.92.92 0 0 1 .08.563c-.065.539-.379 1.353-.63 1.94-.425.998-1.208 2.115-1.788 2.877-.022.03-.163.197-.186.227.9.792 1.944 1.555 3.007 2.136.725.408 2.203 1.162 3.183 1.424.98-.262 2.458-1.016 3.184-1.424a17.063 17.063 0 0 0 3.003-2.134c-.05-.076-.13-.158-.183-.23-.582-.763-1.365-1.881-1.79-2.875-.25-.59-.563-1.405-.628-1.94-.028-.221-.002-.417.08-.565.033-.098.274-.218.317-.226.405.884.887 1.73 1.452 2.522.715 1.003 1.306 1.506 1.527 1.674.248.191.467.304.586.304a.07.07 0 0 0 .044-.012c.094-.069.017-.234-.183-.594a9.003 9.003 0 0 1-.786-1.822c-.13-.456-.18-.706-.182-.92-.004-.246.088-.466.248-.594l.15-.118c.155.373.5.919.665 1.147.15.216.685.919.876 1.11.156.158.22.222.308.32a15.672 15.672 0 0 0 1.609-3.19c.343-.923.583-1.784.707-3.222.075-.86.128-1.81.02-2.948-.101-1.116-.404-2.264-.81-3.068-.249-.49-.605-1.112-1.171-1.566z"/>' }
+};
 
 // Legend (most-recent first) — full journey text, same as the original timeline
 const LEGEND = [
@@ -149,7 +161,7 @@ const LEGEND = [
 ];
 
 function journeyGraphic() {
-  const TW = 860, padL = 60, padR = 52, chartTop = 52, chartBot = 236;
+  const TW = 860, padL = 60, padR = 52, chartTop = 88, chartBot = 248;
   const n = PTS.length, plotW = TW - padL - padR;
   const min = 1, max = 7.7;
   const X = (i) => padL + i * (plotW / (n - 1));
@@ -161,9 +173,14 @@ function journeyGraphic() {
   const marks = co
     .map((c, i) => {
       const last = i === n - 1;
-      return `
+      const lg = LOGO[c.logo];
+      const ly = c.y - 40;
+      const logoSvg = lg
+        ? `\n  <g transform="translate(${(c.x - 9).toFixed(1)},${(ly - 9).toFixed(1)}) scale(0.75)" ${lg.stroke ? 'fill="none" stroke="#c9d1d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"' : 'fill="#c9d1d9"'}>${lg.m}</g>`
+        : "";
+      return `${logoSvg}
   <circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="${last ? 6 : 4}" fill="${last ? ACCENT : C.bg}" stroke="${ACCENT}" stroke-width="2"/>
-  <text x="${c.x.toFixed(1)}" y="${(c.y - 13).toFixed(1)}" font-size="12.5" font-weight="700" fill="${C.title}" font-family="${C.sans}" text-anchor="middle">${esc(c.org)}</text>
+  <text x="${c.x.toFixed(1)}" y="${(c.y - 16).toFixed(1)}" font-size="12.5" font-weight="700" fill="${C.title}" font-family="${C.sans}" text-anchor="middle">${esc(c.org)}</text>
   <text x="${c.x.toFixed(1)}" y="${chartBot + 21}" font-size="11" fill="${C.desc}" font-family="${mono}" text-anchor="middle">${esc(c.yr)}</text>`;
     })
     .join("");
