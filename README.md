@@ -17,16 +17,16 @@
 </div>
 
 <div align="center">
-<a href="https://howborisusesclaudecode.com"><img src="assets/card-boris.svg" width="46%" alt="boris.skill — npx shadcn add https://howborisusesclaudecode.com/r/boris.json" /></a>
+<a href="https://howborisusesclaudecode.com"><img src="assets/card-boris.svg?v=2" width="46%" alt="boris.skill — npx shadcn@latest add https://howborisusesclaudecode.com/r/boris.json" /></a>
 &nbsp;&nbsp;
-<a href="https://howborisusesclaudecode.com"><img src="assets/card-thariq.svg" width="46%" alt="thariq.skill — npx shadcn add https://howborisusesclaudecode.com/r/thariq.json" /></a>
+<a href="https://howborisusesclaudecode.com"><img src="assets/card-thariq.svg?v=2" width="46%" alt="thariq.skill — npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json" /></a>
+<br/>
+<sub>Copy a command — it drops the skill into your project's <code>.claude/skills/</code></sub>
 </div>
 
-Claude Code skills I ship. Copy a command — it drops the skill into your project's `.claude/skills/`:
-
 ```bash
-npx shadcn add https://howborisusesclaudecode.com/r/boris.json    # /boris — 92 Claude Code tips
-npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — how to write skills
+npx shadcn@latest add https://howborisusesclaudecode.com/r/boris.json
+npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 ```
 
 ## Building

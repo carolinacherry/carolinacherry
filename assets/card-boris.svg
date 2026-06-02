@@ -1,4 +1,4 @@
-<svg width="480" height="168" viewBox="0 0 480 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="npx shadcn add https://howborisusesclaudecode.com/r/boris.json">
+<svg width="480" height="168" viewBox="0 0 480 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="npx shadcn@latest add https://howborisusesclaudecode.com/r/boris.json">
   <defs>
     <clipPath id="wipe-boris">
       <rect x="18" y="66" width="0" height="66">
@@ -23,7 +23,7 @@
   <!-- typed command (wipe-revealed) -->
   <g clip-path="url(#wipe-boris)">
     <text class="mono" x="22" y="92" font-size="15">
-      <tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> npx shadcn add</tspan>
+      <tspan fill="#3fb950">$</tspan><tspan fill="#c9d1d9"> npx shadcn@latest add</tspan>
     </text>
     <text class="mono" x="22" y="118" font-size="14">
       <tspan fill="#8b949e">https://howborisusesclaudecode.com/r</tspan><tspan fill="#d2a8ff">/boris.json</tspan>
