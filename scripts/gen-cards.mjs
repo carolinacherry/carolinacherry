@@ -127,7 +127,7 @@ const mono = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace";
 const ACCENT = "#3fb950";
 const PTS = [
   { org: "Finance", yr: "earlier", role: "Wellington · Banc of America · Putnam Lovell", lvl: 1.0 },
-  { org: "Barclays GI", yr: "'06", role: "Institutional BD: Equity, Fixed Income, Hedge Funds", lvl: 2.1 },
+  { org: "Barclays", yr: "'06", role: "Institutional BD: Equity, Fixed Income, Hedge Funds", lvl: 2.1 },
   { org: "Exec Search", yr: "'08", role: "Headhunter during the '08 crisis", lvl: 2.7 },
   { org: "Google", yr: "'09", role: "~12 yrs · most-read Think with Google article", lvl: 4.3 },
   { org: "Mozilla", yr: "'21", role: "Open web advocacy", lvl: 5.3 },
