@@ -232,7 +232,7 @@ function chip(text, markPath, color = "#c9d1d9", stroke = false, markY = 4) {
 writeFileSync(new URL("link-web.svg", OUT), chip("danielan.io", null));
 writeFileSync(new URL("link-linkedin.svg", OUT), chip("LinkedIn", LINKEDIN_PATH));
 writeFileSync(new URL("link-x.svg", OUT), chip("@Daniel_An23", X_PATH));
-writeFileSync(new URL("link-techcrunch.svg", OUT), chip("TechCrunch", '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>', "#c9d1d9", true, 6));
+writeFileSync(new URL("link-techcrunch.svg", OUT), chip("TechCrunch", null));
 writeFileSync(new URL("link-blockworks.svg", OUT), chip("·  Blockworks", null));
 
 // ---- Hero subtitle: two single-line SVGs so each can link separately ----
@@ -242,7 +242,7 @@ function subtitleLine(role, company) {
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(role)} · ${esc(company)}"><text x="${x}" y="18" font-size="${fs}" font-family="${C.sans}"><tspan fill="#8b949e">${esc(role)}</tspan><tspan fill="#6e7681">&#160;&#160;·&#160;&#160;</tspan><tspan fill="#e6edf3" font-weight="600">${esc(company)}</tspan></text></svg>\n`;
 }
 writeFileSync(new URL("subtitle-role.svg", OUT), subtitleLine("Director, Global AI/Copilot GTM Lead", "GitHub"));
-writeFileSync(new URL("subtitle-founder.svg", OUT), subtitleLine("Founder &amp; CEO", "Entopiq"));
+writeFileSync(new URL("subtitle-founder.svg", OUT), subtitleLine("Founder & CEO", "Entopiq"));
 
 // ---- Tech stack (monochrome logo pills, grouped) ----
 const STACK = [

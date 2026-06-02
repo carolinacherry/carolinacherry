@@ -7,7 +7,7 @@
 # Hey, I'm Daniel 👋
 
 <a href="https://danielan.io"><img src="assets/cards/subtitle-role.svg" height="21" alt="Director, Global AI/Copilot GTM Lead · GitHub" /></a><br/>
-<a href="https://entopiq.com"><img src="assets/cards/subtitle-founder.svg" height="21" alt="Founder & CEO · Entopiq" /></a>
+<a href="https://entopiq.com"><img src="assets/cards/subtitle-founder.svg?v=2" height="21" alt="Founder & CEO · Entopiq" /></a>
 
 <div align="center">
 <picture>
@@ -57,7 +57,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 
 <div align="center">
 
-<a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg?v=4" height="15" /></a> &nbsp; <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg?v=3" height="15" /></a>
+<a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg?v=5" height="20" /></a> &nbsp; <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg?v=3" height="20" /></a>
 
 </div>
 
