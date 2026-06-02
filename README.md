@@ -6,7 +6,7 @@
 
 # Hey, I'm Daniel 👋
 
-**Director, Global AI/Copilot GTM Lead @ GitHub** | **Founder & CEO @ [Entopiq, Inc](https://entopiq.com)**
+<img src="assets/cards/subtitle.svg" width="470" alt="Director, Global AI/Copilot GTM Lead @ GitHub · Founder & CEO @ Entopiq" />
 
 <div align="center">
 <picture>
