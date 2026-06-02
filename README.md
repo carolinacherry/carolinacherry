@@ -17,14 +17,17 @@
 </div>
 
 <div align="center">
-<a href="https://howborisusesclaudecode.com"><img src="assets/card-boris.svg" width="46%" alt="npx shadcn add https://howborisusesclaudecode.com/r/boris.json" /></a>
+<img src="assets/card-boris.svg" width="46%" alt="boris.skill — npx shadcn add https://howborisusesclaudecode.com/r/boris.json" />
 &nbsp;&nbsp;
-<a href="https://howborisusesclaudecode.com"><img src="assets/card-thariq.svg" width="46%" alt="npx shadcn add https://howborisusesclaudecode.com/r/thariq.json" /></a>
-<br/>
-<sub>↑ Claude Code skills I ship — one <code>npx shadcn add</code> drops them into your project's <code>.claude/skills/</code></sub>
+<img src="assets/card-thariq.svg" width="46%" alt="thariq.skill — npx shadcn add https://howborisusesclaudecode.com/r/thariq.json" />
 </div>
 
-<br/>
+Claude Code skills I ship. Copy a command below — it drops the skill into your project's `.claude/skills/`:
+
+```bash
+npx shadcn add https://howborisusesclaudecode.com/r/boris.json    # /boris — 92 Claude Code tips
+npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — how to write skills
+```
 
 ## 🚀 Building
 
@@ -62,35 +65,50 @@ For developers who need to stop overthinking:
 </tr>
 </table>
 
+## 🧭 Professional Journey
+
+<table width="100%">
+<tr><td width="22%"><b>GitHub</b></td><td>Director, Global AI/Copilot GTM Lead</td></tr>
+<tr><td><b>Microsoft</b></td><td>'22–'24 · AI/Web3 partnerships (<a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/">TechCrunch</a>, <a href="https://blockworks.co/news/microsoft-axelar-team-up">Blockworks</a>)</td></tr>
+<tr><td><b>Mozilla</b></td><td>'21–'22 · Open web advocacy</td></tr>
+<tr><td><b>Google</b></td><td>'09–'21 · ~12 yrs · most-read Think with Google article; mobile web performance research</td></tr>
+<tr><td><b>Executive Search</b></td><td>'08–'09 · Headhunter during the '08 financial crisis</td></tr>
+<tr><td><b>Barclays Global Investors</b></td><td>'06–'08 · Institutional BD: Active Equity, Fixed Income, Hedge Funds</td></tr>
+<tr><td><b>Wellington Management</b></td><td>Business Analyst</td></tr>
+<tr><td><b>Banc of America Securities</b></td><td>Summer Analyst · FX Sales &amp; Trading (London)</td></tr>
+</table>
+
+## 📦 Open Source
+
 <table>
 <tr>
 <td valign="top" width="50%">
-
-### 🧭 Professional Journey
-
-<table>
-<tr><td><b>GitHub</b></td><td>Director, Global AI/Copilot GTM</td></tr>
-<tr><td><b>Microsoft</b></td><td>'22–'24 · AI/Web3 partnerships (<a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/">TechCrunch</a>, <a href="https://blockworks.co/news/microsoft-axelar-team-up">Blockworks</a>)</td></tr>
-<tr><td><b>Mozilla</b></td><td>'21–'22 · Open web advocacy</td></tr>
-<tr><td><b>Google</b></td><td>'09–'21 · ~12 yrs · mobile web perf research</td></tr>
-<tr><td><b>Exec Search</b></td><td>'08–'09 · Headhunter during the '08 crisis</td></tr>
-<tr><td><b>Barclays&nbsp;GI</b></td><td>'06–'08 · Institutional BD</td></tr>
-<tr><td><b>Wellington</b></td><td>Business Analyst</td></tr>
-<tr><td><b>Banc&nbsp;of&nbsp;America</b></td><td>Summer Analyst · FX (London)</td></tr>
-</table>
-
+🔀 <b><a href="https://github.com/carolinacherry/compare-mcp">Multi-Model Code Review</a></b><br/>
+MCP server that fans code review out to multiple LLMs in parallel, then runs debate rounds.
 </td>
 <td valign="top" width="50%">
-
-### 📦 Open Source
-
-🔀 <a href="https://github.com/carolinacherry/compare-mcp"><b>Multi-Model Code Review</b></a><br/>MCP server that fans code review out to multiple LLMs in parallel, then runs debate rounds.<br/><br/>
-🚵 <a href="https://github.com/carolinacherry/github-talent-mcp"><b>GitHub as a Talent Database</b></a><br/>Searches, scores, and ranks developers for recruiting.<br/><br/>
-🍏 <a href="https://github.com/carolinacherry/local-ai"><b>Local AI on iPhone</b></a><br/>Run Qwen3.5 on your iPhone. No cloud, 100% on-device.<br/><br/>
-🔐 <a href="https://github.com/carolinacherry/magnus"><b>Magnus</b></a><br/>Self-hosted security scanner for solo devs.<br/><br/>
-🔗 <a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><b>Fine-tuned Qwen2.5-3B</b></a><br/>LoRA + MLX on a $499 M4 Mac Mini · 38&nbsp;min train. <a href="https://x.com/Daniel_An23/status/2017977850075250901">Write-up&nbsp;↗</a><br/><br/>
-📈 <a href="https://github.com/quant-sentiment-ai/claude-equity-research"><b>claude-equity-research</b></a><br/>Claude Code plugin for institutional-grade equity research. 150+&nbsp;⭐
-
+🚵 <b><a href="https://github.com/carolinacherry/github-talent-mcp">GitHub as a Talent Database</a></b><br/>
+MCP server that searches, scores, and ranks developers for technical recruiting.
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+🍏 <b><a href="https://github.com/carolinacherry/local-ai">Local AI on iPhone</a></b><br/>
+Run Qwen3.5 on your iPhone. No cloud, no API keys, 100% on-device.
+</td>
+<td valign="top" width="50%">
+🔐 <b><a href="https://github.com/carolinacherry/magnus">Magnus</a></b><br/>
+Self-hosted security scanner for solo devs. Autonomous vuln discovery with fix guides.
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+🔗 <b><a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor">Fine-tuned Qwen2.5-3B</a></b><br/>
+LoRA + MLX on a $499 M4 Mac Mini · 38&nbsp;min train · 15&nbsp;tok/s. <a href="https://x.com/Daniel_An23/status/2017977850075250901">Write-up&nbsp;↗</a>
+</td>
+<td valign="top" width="50%">
+📈 <b><a href="https://github.com/quant-sentiment-ai/claude-equity-research">claude-equity-research</a></b><br/>
+Claude Code plugin for institutional-grade equity research. 150+&nbsp;⭐
 </td>
 </tr>
 </table>
