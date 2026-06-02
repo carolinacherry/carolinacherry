@@ -43,7 +43,7 @@ npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — 
 ## Professional Journey
 
 <div align="center">
-<img src="assets/cards/journey.svg?v=3" width="96%" alt="Career trajectory and journey" />
+<img src="assets/cards/journey.svg?v=4" width="96%" alt="Career trajectory and journey" />
 </div>
 
 <sub>Press: [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) · [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up)</sub>
