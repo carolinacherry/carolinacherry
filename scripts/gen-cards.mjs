@@ -122,4 +122,53 @@ const projects = [
 
 for (const p of projects) writeFileSync(new URL(`${p.file}.svg`, OUT), card(p));
 
-console.log("generated", projects.length, "cards");
+// ---- Professional Journey: career trajectory chart (up & to the right) ----
+const mono = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace";
+const ACCENT = "#3fb950";
+const PTS = [
+  { org: "Finance", yr: "earlier", role: "Wellington · Banc of America · Putnam Lovell", lvl: 1.0 },
+  { org: "Barclays GI", yr: "'06", role: "Institutional BD: Equity, Fixed Income, Hedge Funds", lvl: 2.1 },
+  { org: "Exec Search", yr: "'08", role: "Headhunter during the '08 crisis", lvl: 2.7 },
+  { org: "Google", yr: "'09", role: "~12 yrs · most-read Think with Google article", lvl: 4.3 },
+  { org: "Mozilla", yr: "'21", role: "Open web advocacy", lvl: 5.3 },
+  { org: "Microsoft", yr: "'22", role: "AI/Web3 partnerships", lvl: 6.4 },
+  { org: "GitHub", yr: "now", role: "Director, Global AI/Copilot GTM Lead", lvl: 7.7 }
+];
+
+function chart() {
+  const TW = 860, H = 320, padL = 60, padR = 52, padTop = 54, padB = 48;
+  const n = PTS.length, plotW = TW - padL - padR, top = padTop, bot = H - padB;
+  const min = 1, max = 7.7;
+  const X = (i) => padL + i * (plotW / (n - 1));
+  const Y = (l) => bot - ((l - min) / (max - min)) * (bot - top);
+  const co = PTS.map((p, i) => ({ ...p, x: X(i), y: Y(p.lvl) }));
+
+  const line = co.map((c, i) => `${i ? "L" : "M"}${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ");
+  const area = `M${co[0].x.toFixed(1)},${bot} ` + co.map((c) => `L${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(" ") + ` L${co[n - 1].x.toFixed(1)},${bot} Z`;
+
+  const marks = co
+    .map((c, i) => {
+      const last = i === n - 1;
+      return `
+  <circle cx="${c.x.toFixed(1)}" cy="${c.y.toFixed(1)}" r="${last ? 6 : 4}" fill="${last ? ACCENT : C.bg}" stroke="${ACCENT}" stroke-width="2"/>
+  <text x="${c.x.toFixed(1)}" y="${(c.y - 14).toFixed(1)}" font-size="12.5" font-weight="700" fill="${C.title}" font-family="${C.sans}" text-anchor="middle">${esc(c.org)}</text>
+  <text x="${c.x.toFixed(1)}" y="${bot + 21}" font-size="11" fill="${C.desc}" font-family="${mono}" text-anchor="middle">${esc(c.yr)}</text>`;
+    })
+    .join("");
+
+  return `<svg width="${TW}" height="${H}" viewBox="0 0 ${TW} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Career trajectory — up and to the right">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${ACCENT}" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="${ACCENT}" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="${TW - 2}" height="${H - 2}" rx="14" fill="${C.bg}" stroke="${C.border}" stroke-width="1"/>
+  <line x1="${padL - 10}" y1="${bot}" x2="${TW - padR + 10}" y2="${bot}" stroke="${C.chipBorder}" stroke-width="1"/>
+  <path d="${area}" fill="url(#grad)"/>
+  <path d="${line}" fill="none" stroke="${ACCENT}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>${marks}
+</svg>\n`;
+}
+writeFileSync(new URL("journey.svg", OUT), chart());
+
+console.log("generated", projects.length, "cards + journey chart");

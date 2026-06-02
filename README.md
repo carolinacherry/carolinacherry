@@ -32,32 +32,31 @@ npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — 
 ## Building
 
 <div align="center">
-<a href="https://entopiq.com"><img src="assets/cards/entopiq.svg" width="47%" /></a>
-<a href="https://howborisusesclaudecode.com"><img src="assets/cards/boris-proj.svg" width="47%" /></a>
-<a href="https://x.com/Daniel_An23/status/2011481601050349793"><img src="assets/cards/ralph.svg" width="47%" /></a>
-<a href="https://skarnfall.com"><img src="assets/cards/skarnfall.svg" width="47%" /></a>
-<a href="https://x.com/Daniel_An23/status/2006427824832352701"><img src="assets/cards/kalshi.svg" width="47%" /></a>
-<a href="https://justfuckinguseclaudecode.com"><img src="assets/cards/jfu.svg" width="47%" /></a>
+<a href="https://entopiq.com"><img src="assets/cards/entopiq.svg?v=2" width="47%" /></a>
+<a href="https://howborisusesclaudecode.com"><img src="assets/cards/boris-proj.svg?v=2" width="47%" /></a>
+<a href="https://x.com/Daniel_An23/status/2011481601050349793"><img src="assets/cards/ralph.svg?v=2" width="47%" /></a>
+<a href="https://skarnfall.com"><img src="assets/cards/skarnfall.svg?v=2" width="47%" /></a>
+<a href="https://x.com/Daniel_An23/status/2006427824832352701"><img src="assets/cards/kalshi.svg?v=2" width="47%" /></a>
+<a href="https://justfuckinguseclaudecode.com"><img src="assets/cards/jfu.svg?v=2" width="47%" /></a>
 </div>
 
 ## Professional Journey
 
-<kbd>&nbsp;2022&nbsp;–&nbsp;2024&nbsp;</kbd> &nbsp;**Microsoft** — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage<br/><br/>
-<kbd>&nbsp;2021&nbsp;–&nbsp;2022&nbsp;</kbd> &nbsp;**Mozilla** — Open web advocacy before it was cool. Kind of.<br/><br/>
-<kbd>&nbsp;2009&nbsp;–&nbsp;2021&nbsp;</kbd> &nbsp;**Google** — ~12 years · authored their most-read Think with Google article; mobile web performance research that influenced search ranking<br/><br/>
-<kbd>&nbsp;2008&nbsp;–&nbsp;2009&nbsp;</kbd> &nbsp;**Executive Search** — headhunter during the '08 financial crisis. Now I'm building AI to automate it.<br/><br/>
-<kbd>&nbsp;2006&nbsp;–&nbsp;2008&nbsp;</kbd> &nbsp;**Barclays Global Investors** — Institutional BD: Active Equity, Fixed Income, Hedge Funds<br/><br/>
-<kbd>&nbsp;earlier&nbsp;</kbd> &nbsp;**Wellington Management** · Business Analyst &nbsp;—&nbsp; **Banc of America Securities** · FX Sales &amp; Trading (London) &nbsp;—&nbsp; **Putnam Lovell Securities** · FIG M&amp;A (London)
+<div align="center">
+<img src="assets/cards/journey.svg" width="96%" alt="Professional journey timeline" />
+</div>
+
+<sub>Microsoft press: [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) · [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up)</sub>
 
 ## Open Source
 
 <div align="center">
-<a href="https://github.com/carolinacherry/compare-mcp"><img src="assets/cards/compare.svg" width="47%" /></a>
-<a href="https://github.com/carolinacherry/github-talent-mcp"><img src="assets/cards/talent.svg" width="47%" /></a>
-<a href="https://github.com/carolinacherry/local-ai"><img src="assets/cards/localai.svg" width="47%" /></a>
-<a href="https://github.com/carolinacherry/magnus"><img src="assets/cards/magnus.svg" width="47%" /></a>
-<a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><img src="assets/cards/qwen.svg" width="47%" /></a>
-<a href="https://github.com/quant-sentiment-ai/claude-equity-research"><img src="assets/cards/equity.svg" width="47%" /></a>
+<a href="https://github.com/carolinacherry/compare-mcp"><img src="assets/cards/compare.svg?v=2" width="47%" /></a>
+<a href="https://github.com/carolinacherry/github-talent-mcp"><img src="assets/cards/talent.svg?v=2" width="47%" /></a>
+<a href="https://github.com/carolinacherry/local-ai"><img src="assets/cards/localai.svg?v=2" width="47%" /></a>
+<a href="https://github.com/carolinacherry/magnus"><img src="assets/cards/magnus.svg?v=2" width="47%" /></a>
+<a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><img src="assets/cards/qwen.svg?v=2" width="47%" /></a>
+<a href="https://github.com/quant-sentiment-ai/claude-equity-research"><img src="assets/cards/equity.svg?v=2" width="47%" /></a>
 </div>
 
 ---
