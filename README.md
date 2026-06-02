@@ -17,9 +17,9 @@
 </div>
 
 <div align="center">
-<img src="assets/card-boris.svg" width="46%" alt="boris.skill — npx shadcn add https://howborisusesclaudecode.com/r/boris.json" />
+<a href="https://howborisusesclaudecode.com"><img src="assets/card-boris.svg" width="46%" alt="boris.skill — npx shadcn add https://howborisusesclaudecode.com/r/boris.json" /></a>
 &nbsp;&nbsp;
-<img src="assets/card-thariq.svg" width="46%" alt="thariq.skill — npx shadcn add https://howborisusesclaudecode.com/r/thariq.json" />
+<a href="https://howborisusesclaudecode.com"><img src="assets/card-thariq.svg" width="46%" alt="thariq.skill — npx shadcn add https://howborisusesclaudecode.com/r/thariq.json" /></a>
 </div>
 
 Claude Code skills I ship. Copy a command — it drops the skill into your project's `.claude/skills/`:
