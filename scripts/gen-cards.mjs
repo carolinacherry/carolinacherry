@@ -155,9 +155,9 @@ const LEGEND = [
   { org: "Google", role: "~12 years · most-read Think with Google article; mobile web performance research" },
   { org: "Executive Search", role: "Headhunter during the '08 financial crisis. Now building AI to automate it." },
   { org: "Barclays Global Investors", role: "Institutional BD: Active Equity, Fixed Income, Hedge Funds" },
-  { org: "Wellington Management", role: "Business Analyst (Boston)" },
-  { org: "Banc of America Securities", role: "Summer Analyst · FX Sales & Trading (London)" },
-  { org: "Putnam Lovell Securities", role: "Summer Analyst · FIG M&A (London)" }
+  { org: "Wellington Management", role: "Business Analyst" },
+  { org: "Banc of America Securities", role: "Summer Analyst · FX Sales & Trading" },
+  { org: "Putnam Lovell Securities", role: "Summer Analyst · FIG M&A" }
 ];
 
 function journeyGraphic() {
