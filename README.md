@@ -24,6 +24,8 @@
 <sub>Copy a command — it drops the skill into your project's <code>.claude/skills/</code></sub>
 </div>
 
+<br/>
+
 ```bash
 npx shadcn@latest add https://howborisusesclaudecode.com/r/boris.json
 npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
@@ -46,7 +48,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 <img src="assets/cards/journey.svg?v=6" width="96%" alt="Career trajectory and journey" />
 </div>
 
-<sub>Press: [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) · [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up)</sub>
+<sub>Press:</sub>&nbsp; <a href="https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/"><img src="assets/cards/link-techcrunch.svg" height="15" align="center" /></a> <sub>·</sub> <a href="https://blockworks.co/news/microsoft-axelar-team-up"><img src="assets/cards/link-blockworks.svg" height="15" align="center" /></a>
 
 ## Open Source
 
