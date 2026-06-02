@@ -29,7 +29,7 @@ npx shadcn add https://howborisusesclaudecode.com/r/boris.json    # /boris — 9
 npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — how to write skills
 ```
 
-## 🚀 Building
+## Building
 
 <div align="center">
 <a href="https://entopiq.com"><img src="assets/cards/entopiq.svg" width="47%" /></a>
@@ -40,7 +40,7 @@ npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — 
 <a href="https://justfuckinguseclaudecode.com"><img src="assets/cards/jfu.svg" width="47%" /></a>
 </div>
 
-## 🧭 Professional Journey
+## Professional Journey
 
 <kbd>&nbsp;2022&nbsp;–&nbsp;2024&nbsp;</kbd> &nbsp;**Microsoft** — AI/Web3 partnerships that got [TechCrunch](https://techcrunch.com/2023/08/09/microsoft-aptos-blockchain-ai-web3/) and [Blockworks](https://blockworks.co/news/microsoft-axelar-team-up) coverage<br/><br/>
 <kbd>&nbsp;2021&nbsp;–&nbsp;2022&nbsp;</kbd> &nbsp;**Mozilla** — Open web advocacy before it was cool. Kind of.<br/><br/>
@@ -49,7 +49,7 @@ npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — 
 <kbd>&nbsp;2006&nbsp;–&nbsp;2008&nbsp;</kbd> &nbsp;**Barclays Global Investors** — Institutional BD: Active Equity, Fixed Income, Hedge Funds<br/><br/>
 <kbd>&nbsp;earlier&nbsp;</kbd> &nbsp;**Wellington Management** · Business Analyst &nbsp;—&nbsp; **Banc of America Securities** · FX Sales &amp; Trading (London) &nbsp;—&nbsp; **Putnam Lovell Securities** · FIG M&amp;A (London)
 
-## 📦 Open Source
+## Open Source
 
 <div align="center">
 <a href="https://github.com/carolinacherry/compare-mcp"><img src="assets/cards/compare.svg" width="47%" /></a>
@@ -64,7 +64,7 @@ npx shadcn add https://howborisusesclaudecode.com/r/thariq.json   # /thariq — 
 
 <div align="center">
 
-🌐 <a href="https://danielan.io">danielan.io</a> · 💼 <a href="https://linkedin.com/in/andaniel">LinkedIn</a> · 𝕏 <a href="https://x.com/Daniel_An23">@Daniel_An23</a>
+<a href="https://danielan.io">danielan.io</a> &nbsp;·&nbsp; <img src="assets/linkedin.svg" height="14" align="center" />&nbsp;<a href="https://linkedin.com/in/andaniel">LinkedIn</a> &nbsp;·&nbsp; 𝕏 <a href="https://x.com/Daniel_An23">@Daniel_An23</a>
 
 <a href="https://buymeacoffee.com/danielan"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
 

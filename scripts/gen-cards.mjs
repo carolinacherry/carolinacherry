@@ -63,7 +63,7 @@ function card({ icon, title, desc, chips, accent, link }) {
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(title)}">
   <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="14" fill="${C.bg}" stroke="${C.border}" stroke-width="1"/>
   <rect x="0" y="14" width="${STRIPE}" height="${H - 28}" rx="2" fill="${accent}"/>
-  <text x="${x0}" y="${titleY}" font-size="17" font-weight="700" fill="${C.title}" font-family="${C.sans}">${icon}&#160;&#160;${esc(title)}</text>
+  <text x="${x0}" y="${titleY}" font-size="17" font-weight="700" fill="${C.title}" font-family="${C.sans}">${esc(title)}</text>
   ${descSvg}
   ${chipSvg}
 </svg>\n`;
