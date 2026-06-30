@@ -61,6 +61,12 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 
 </div>
 
+## Around the world
+
+<div align="center">
+<img src="assets/cards/geo.svg" width="96%" alt="Places I've lived and worked across two continents — born in Oslo, US/Norwegian dual citizen" />
+</div>
+
 ## Open Source
 
 <div align="center">
