@@ -354,7 +354,7 @@ writeFileSync(new URL("subtitle-founder.svg", OUT), subtitleLine("Founder & CEO"
 
 // ---- Tech stack (monochrome logo pills, grouped) ----
 const STACK = [
-  { label: "AGENTS & CLI", items: [["Claude Code", "anthropic"], ["Copilot CLI", "githubcopilot"], ["Gemini CLI", "googlegemini"], ["MCP", null]] },
+  { label: "AGENTS & CLI", items: [["Claude Code", "anthropic"], ["Copilot CLI", "githubcopilot"], ["Gemini CLI", "googlegemini"], ["Cursor", "cursor"], ["MCP", null]] },
   { label: "MODELS & APIs", items: [["Anthropic", "anthropic"], ["OpenAI", "openai"], ["Gemini", "googlegemini"], ["MLX", null], ["Ollama", "ollama"]] },
   { label: "LANGUAGES & BACKEND", items: [["Python", "python"], ["TypeScript", "typescript"], ["Swift", "swift"], ["FastAPI", "fastapi"]] },
   { label: "DATA & DEPLOY", items: [["PostgreSQL", "postgresql"], ["Supabase", "supabase"], ["Netlify", "netlify"], ["Vercel", "vercel"]] },
@@ -372,6 +372,12 @@ for (const s of slugs) {
     }
   } catch { /* fall back to text-only pill */ }
 }
+
+// simple-icons v13 predates some logos (e.g. Cursor); inline their monochrome paths as a fallback.
+const EXTRA_PATHS = {
+  cursor: "M11.503.131 1.891 5.678a.84.84 0 0 0-.42.726v11.188c0 .3.162.575.42.724l9.609 5.55a1 1 0 0 0 .998 0l9.61-5.55a.84.84 0 0 0 .42-.724V6.404a.84.84 0 0 0-.42-.726L12.497.131a1.01 1.01 0 0 0-.996 0M2.657 6.338h18.55c.263 0 .43.287.297.515L12.23 22.918c-.062.107-.229.064-.229-.06V12.335a.59.59 0 0 0-.295-.51l-9.11-5.257c-.109-.063-.064-.23.061-.23"
+};
+for (const [s, d] of Object.entries(EXTRA_PATHS)) if (!stackPaths[s]) stackPaths[s] = d;
 
 function stackGraphic() {
   const W = 860, fs = 12.5, pillH = 26, gap = 8, lineGap = 10, groupGap = 24, labelGap = 26, startX = 26, maxX = W - 26;
