@@ -354,8 +354,8 @@ writeFileSync(new URL("subtitle-founder.svg", OUT), subtitleLine("Founder & CEO"
 
 // ---- Tech stack (monochrome logo pills, grouped) ----
 const STACK = [
-  { label: "AGENTS & CLI", items: [["Claude Code", "anthropic"], ["Copilot CLI", "githubcopilot"], ["Gemini CLI", "googlegemini"], ["Cursor", "cursor"], ["MCP", null]] },
-  { label: "MODELS & APIs", items: [["Anthropic", "anthropic"], ["OpenAI", "openai"], ["Gemini", "googlegemini"], ["MLX", null], ["Ollama", "ollama"]] },
+  { label: "AGENTS & CLI", items: [["Claude Code", "anthropic"], ["Copilot CLI", "githubcopilot"], ["Gemini CLI", "googlegemini"], ["Cursor", "cursor"], ["MCP", null], ["Grok Bot", "grok"]] },
+  { label: "MODELS & APIs", items: [["Anthropic", "anthropic"], ["OpenAI", "openai"], ["Gemini", "googlegemini"], ["MLX", null], ["Ollama", "ollama"], ["Grok", "grok"]] },
   { label: "LANGUAGES & BACKEND", items: [["Python", "python"], ["TypeScript", "typescript"], ["Swift", "swift"], ["FastAPI", "fastapi"]] },
   { label: "DATA & DEPLOY", items: [["PostgreSQL", "postgresql"], ["Supabase", "supabase"], ["Netlify", "netlify"], ["Vercel", "vercel"]] },
   { label: "DEV & OPS", items: [["VS Code", null], ["Docker", "docker"], ["Playwright", null], ["Sentry", "sentry"], ["GitHub", "github"]] }
@@ -373,8 +373,10 @@ for (const s of slugs) {
   } catch { /* fall back to text-only pill */ }
 }
 
-// simple-icons v13 predates some logos (e.g. Cursor); inline their monochrome paths as a fallback.
+// simple-icons v13 predates some logos (e.g. Cursor), and has no xAI/Grok mark at all; inline
+// their monochrome paths as a fallback.
 const EXTRA_PATHS = {
+  grok: "m19.25 5.08l-9.52 9.67l6.64-4.96c.33-.24.79-.15.95.23c.82 1.99.45 4.39-1.17 6.03c-1.63 1.64-3.89 2.01-5.96 1.18l-2.26 1.06c3.24 2.24 7.18 1.69 9.64-.8c1.95-1.97 2.56-4.66 1.99-7.09c-.82-3.56.2-4.98 2.29-7.89L22 2.3zm-9.53 9.67h.01zm-1.37 1.21c-2.33-2.25-1.92-5.72.06-7.73c1.47-1.48 3.87-2.09 5.97-1.2l2.25-1.05c-.41-.3-.93-.62-1.52-.84a7.45 7.45 0 0 0-8.13 1.65c-2.11 2.14-2.78 5.42-1.63 8.22c.85 2.09-.54 3.57-1.95 5.07c-.5.53-1 1.06-1.4 1.62z",
   cursor: "M11.503.131 1.891 5.678a.84.84 0 0 0-.42.726v11.188c0 .3.162.575.42.724l9.609 5.55a1 1 0 0 0 .998 0l9.61-5.55a.84.84 0 0 0 .42-.724V6.404a.84.84 0 0 0-.42-.726L12.497.131a1.01 1.01 0 0 0-.996 0M2.657 6.338h18.55c.263 0 .43.287.297.515L12.23 22.918c-.062.107-.229.064-.229-.06V12.335a.59.59 0 0 0-.295-.51l-9.11-5.257c-.109-.063-.064-.23.061-.23"
 };
 for (const [s, d] of Object.entries(EXTRA_PATHS)) if (!stackPaths[s]) stackPaths[s] = d;

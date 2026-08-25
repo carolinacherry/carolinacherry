@@ -46,7 +46,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 ## Stack
 
 <div align="center">
-<img src="assets/cards/stack.svg?v=2" width="96%" alt="Tech stack" />
+<img src="assets/cards/stack.svg?v=3" width="96%" alt="Tech stack" />
 </div>
 
 ## Professional Journey
