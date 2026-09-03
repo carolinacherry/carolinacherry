@@ -72,10 +72,10 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 <div align="center">
 <a href="https://github.com/carolinacherry/compare-mcp"><img src="assets/cards/compare.svg?v=3" width="47%" /></a>
 <a href="https://github.com/carolinacherry/github-talent-mcp"><img src="assets/cards/talent.svg?v=3" width="47%" /></a>
-<a href="https://github.com/carolinacherry/local-ai"><img src="assets/cards/localai.svg?v=2" width="47%" /></a>
-<a href="https://github.com/carolinacherry/magnus"><img src="assets/cards/magnus.svg?v=3" width="47%" /></a>
-<a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><img src="assets/cards/qwen.svg?v=2" width="47%" /></a>
-<a href="https://github.com/quant-sentiment-ai/claude-equity-research"><img src="assets/cards/equity.svg?v=5" width="47%" /></a>
+<a href="https://github.com/carolinacherry/local-ai"><img src="assets/cards/localai.svg?v=3" width="47%" /></a>
+<a href="https://github.com/carolinacherry/magnus"><img src="assets/cards/magnus.svg?v=4" width="47%" /></a>
+<a href="https://github.com/carolinacherry/qwen-fine-tuned-career-advisor"><img src="assets/cards/qwen.svg?v=3" width="47%" /></a>
+<a href="https://github.com/quant-sentiment-ai/claude-equity-research"><img src="assets/cards/equity.svg?v=6" width="47%" /></a>
 </div>
 
 ---
