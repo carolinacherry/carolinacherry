@@ -35,7 +35,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 ## Building
 
 <div align="center">
-<a href="https://entopiq.com"><img src="assets/cards/entopiq.svg?v=3" width="47%" /></a>
+<a href="https://entopiq.com"><img src="assets/cards/entopiq.svg?v=4" width="47%" /></a>
 <a href="https://howborisusesclaudecode.com"><img src="assets/cards/boris-proj.svg?v=3" width="47%" /></a>
 <a href="https://x.com/Daniel_An23/status/2011481601050349793"><img src="assets/cards/ralph.svg?v=2" width="47%" /></a>
 <a href="https://skarnfall.com"><img src="assets/cards/skarnfall.svg?v=3" width="47%" /></a>

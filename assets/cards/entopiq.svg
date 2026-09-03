@@ -10,7 +10,7 @@
     <text x="65.5" y="138" font-size="11.5" fill="#adbac7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Video</text>
   </g>
   <g>
-    <rect x="101" y="122" width="97" height="24" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
-    <text x="149.5" y="138" font-size="11.5" fill="#adbac7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">AI matching</text>
+    <rect x="101" y="122" width="140" height="24" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+    <text x="171" y="138" font-size="11.5" fill="#adbac7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">Contextual matching</text>
   </g>
 </svg>
