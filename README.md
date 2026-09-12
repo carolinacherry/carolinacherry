@@ -86,6 +86,4 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 
 <a href="https://buymeacoffee.com/danielan"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=carolinacherry&theme=github-dark&area=true&hide_border=true&custom_title=Contribution%20Activity)](https://github.com/carolinacherry)
-
 </div>
