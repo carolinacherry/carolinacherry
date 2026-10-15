@@ -149,7 +149,7 @@ const LOGO = {
 
 // Legend (most-recent first) — full journey text, same as the original timeline
 const LEGEND = [
-  { org: "GitHub", role: "Director, Global AI/Copilot GTM Lead" },
+  { org: "GitHub", role: "Director, Global AI/Copilot Overlay Sales Lead" },
   { org: "Microsoft", role: "AI/Web3 partnerships — TechCrunch + Blockworks coverage" },
   { org: "Mozilla", role: "Open web advocacy before it was cool. Kind of." },
   { org: "Google", role: "~12 years · most-read Think with Google article; mobile web performance research" },
@@ -349,7 +349,7 @@ function subtitleLine(role, company) {
   const W = Math.round(x + (role + "    " + company).length * 8 + 8);
   return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(role)} · ${esc(company)}"><text x="${x}" y="18" font-size="${fs}" font-family="${C.sans}"><tspan fill="#8b949e">${esc(role)}</tspan><tspan fill="#6e7681">&#160;&#160;·&#160;&#160;</tspan><tspan fill="#e6edf3" font-weight="600">${esc(company)}</tspan></text></svg>\n`;
 }
-writeFileSync(new URL("subtitle-role.svg", OUT), subtitleLine("Director, Global AI/Copilot GTM Lead", "GitHub"));
+writeFileSync(new URL("subtitle-role.svg", OUT), subtitleLine("Director, Global AI/Copilot Overlay Sales Lead", "GitHub"));
 writeFileSync(new URL("subtitle-founder.svg", OUT), subtitleLine("Founder & CEO", "Entopiq"));
 
 // ---- Tech stack (monochrome logo pills, grouped) ----
