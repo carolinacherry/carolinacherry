@@ -6,7 +6,7 @@
 
 # Hey, I'm Daniel 👋
 
-<a href="https://danielan.io"><img src="assets/cards/subtitle-role.svg" height="21" alt="Director, Global AI/Copilot Overlay Sales Lead · GitHub" /></a><br/>
+<a href="https://danielan.io"><img src="assets/cards/subtitle-role.svg?v=2" height="21" alt="Director, Global AI/Copilot Overlay Sales Lead · GitHub" /></a><br/>
 <a href="https://entopiq.com"><img src="assets/cards/subtitle-founder.svg?v=2" height="21" alt="Founder & CEO · Entopiq" /></a>
 
 <div align="center">
@@ -52,7 +52,7 @@ npx shadcn@latest add https://howborisusesclaudecode.com/r/thariq.json
 ## Professional Journey
 
 <div align="center">
-<img src="assets/cards/journey.svg?v=8" width="96%" alt="Career trajectory and journey" />
+<img src="assets/cards/journey.svg?v=9" width="96%" alt="Career trajectory and journey" />
 </div>
 
 <div align="center">
