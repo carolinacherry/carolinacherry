@@ -1,12 +1,12 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Director,+Global+AI/Copilot+GTM+Lead+@+GitHub;Founder+%26+CEO+@+Entopiq,+Inc;Building+agents+that+do+real+work&font=Fira+Code&center=true&width=700&height=45&color=58A6FF&size=20&pause=1000&duration=3000)](https://github.com/carolinacherry)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Director,+Global+AI/Copilot+Overlay+Sales+Lead+@+GitHub;Founder+%26+CEO+@+Entopiq,+Inc;Building+agents+that+do+real+work&font=Fira+Code&center=true&width=700&height=45&color=58A6FF&size=20&pause=1000&duration=3000)](https://github.com/carolinacherry)
 
 </div>
 
 # Hey, I'm Daniel 👋
 
-<a href="https://danielan.io"><img src="assets/cards/subtitle-role.svg" height="21" alt="Director, Global AI/Copilot GTM Lead · GitHub" /></a><br/>
+<a href="https://danielan.io"><img src="assets/cards/subtitle-role.svg" height="21" alt="Director, Global AI/Copilot Overlay Sales Lead · GitHub" /></a><br/>
 <a href="https://entopiq.com"><img src="assets/cards/subtitle-founder.svg?v=2" height="21" alt="Founder & CEO · Entopiq" /></a>
 
 <div align="center">
